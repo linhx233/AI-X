@@ -1,0 +1,3753 @@
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 27.290507
+avg_queueing_latency = 3.201463
+average_hops = 3.745210
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12691
+packets_received = 12677
+packets_received_ratio = 0.998897
+avg_network_latency = 30.153664
+avg_queueing_latency = 5.937446
+average_hops = 3.767866
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25343
+packets_received = 25294
+packets_received_ratio = 0.998067
+avg_network_latency = 43.748399
+avg_queueing_latency = 76.593659
+average_hops = 3.743837
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.07 ======
+packets_injected = 28845
+packets_received = 28762
+packets_received_ratio = 0.997123
+avg_network_latency = 52.317711
+avg_queueing_latency = 3456.323239
+average_hops = 3.735216
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.10 ======
+packets_injected = 28612
+packets_received = 28532
+packets_received_ratio = 0.997204
+avg_network_latency = 52.854689
+avg_queueing_latency = 5461.620321
+average_hops = 3.749873
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.15 ======
+packets_injected = 28828
+packets_received = 28751
+packets_received_ratio = 0.997329
+avg_network_latency = 52.413307
+avg_queueing_latency = 6916.741157
+average_hops = 3.735254
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.25 ======
+packets_injected = 28749
+packets_received = 28675
+packets_received_ratio = 0.997426
+avg_network_latency = 52.609660
+avg_queueing_latency = 8107.292066
+average_hops = 3.733655
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.20 ======
+packets_injected = 28798
+packets_received = 28725
+packets_received_ratio = 0.997465
+avg_network_latency = 52.511297
+avg_queueing_latency = 7632.703777
+average_hops = 3.740864
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 26.952775
+avg_queueing_latency = 3.118143
+average_hops = 3.745210
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.30 ======
+packets_injected = 28565
+packets_received = 28484
+packets_received_ratio = 0.997164
+avg_network_latency = 52.858728
+avg_queueing_latency = 8477.906193
+average_hops = 3.723847
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12690
+packets_received = 12676
+packets_received_ratio = 0.998897
+avg_network_latency = 29.476807
+avg_queueing_latency = 5.444383
+average_hops = 3.768065
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.40 ======
+packets_injected = 28750
+packets_received = 28675
+packets_received_ratio = 0.997391
+avg_network_latency = 52.554734
+avg_queueing_latency = 8841.160105
+average_hops = 3.736730
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.04 ======
+packets_injected = 6285
+packets_received = 6216
+packets_received_ratio = 0.989021
+avg_network_latency = 44.443855
+avg_queueing_latency = 64.432593
+average_hops = 3.801641
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.07 ======
+packets_injected = 2265
+packets_received = 2197
+packets_received_ratio = 0.969978
+avg_network_latency = 51.656350
+avg_queueing_latency = 261.144288
+average_hops = 3.714156
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.50 ======
+packets_injected = 28714
+packets_received = 28637
+packets_received_ratio = 0.997318
+avg_network_latency = 52.660230
+avg_queueing_latency = 9025.007089
+average_hops = 3.741220
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=DOR3D | rate=0.60 ======
+packets_injected = 28709
+packets_received = 28632
+packets_received_ratio = 0.997318
+avg_network_latency = 52.613125
+avg_queueing_latency = 9191.205434
+average_hops = 3.725448
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.10 ======
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.15 ======
+packets_injected = 587
+packets_received = 518
+packets_received_ratio = 0.882453
+avg_network_latency = 41.243243
+avg_queueing_latency = 74.156371
+average_hops = 3.714286
+throughput = NaN
+
+packets_injected = 1065
+packets_received = 997
+packets_received_ratio = 0.936150
+avg_network_latency = 50.956871
+avg_queueing_latency = 223.571715
+average_hops = 3.616851
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.20 ======
+packets_injected = 1547
+packets_received = 1478
+packets_received_ratio = 0.955398
+avg_network_latency = 55.112314
+avg_queueing_latency = 404.460758
+average_hops = 3.817997
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.30 ======
+packets_injected = 3775
+packets_received = 3705
+packets_received_ratio = 0.981457
+avg_network_latency = 54.360324
+avg_queueing_latency = 1086.798381
+average_hops = 3.719028
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.25 ======
+packets_injected = 1996
+packets_received = 1928
+packets_received_ratio = 0.965932
+avg_network_latency = 49.650415
+avg_queueing_latency = 550.818983
+average_hops = 3.688797
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.40 ======
+packets_injected = 743
+packets_received = 669
+packets_received_ratio = 0.900404
+avg_network_latency = 48.234679
+avg_queueing_latency = 191.989537
+average_hops = 3.816143
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.60 ======
+packets_injected = 755
+packets_received = 685
+packets_received_ratio = 0.907285
+avg_network_latency = 44.013139
+avg_queueing_latency = 196.881752
+average_hops = 3.672993
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=PAR3D | rate=0.50 ======
+packets_injected = 1186
+packets_received = 1118
+packets_received_ratio = 0.942664
+avg_network_latency = 50.095707
+avg_queueing_latency = 337.654741
+average_hops = 3.785331
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 27.552234
+avg_queueing_latency = 3.183495
+average_hops = 3.745210
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12690
+packets_received = 12674
+packets_received_ratio = 0.998739
+avg_network_latency = 31.293278
+avg_queueing_latency = 6.360739
+average_hops = 3.768081
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 529
+packets_received = 458
+packets_received_ratio = 0.865784
+avg_network_latency = 45.355895
+avg_queueing_latency = 52.563319
+average_hops = 3.674672
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 759
+packets_received = 693
+packets_received_ratio = 0.913043
+avg_network_latency = 46.092352
+avg_queueing_latency = 38.083694
+average_hops = 3.806638
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 658
+packets_received = 591
+packets_received_ratio = 0.898176
+avg_network_latency = 53.204738
+avg_queueing_latency = 132.059222
+average_hops = 3.675127
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 463
+packets_received = 394
+packets_received_ratio = 0.850972
+avg_network_latency = 44.578680
+avg_queueing_latency = 78.121827
+average_hops = 3.535533
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 714
+packets_received = 638
+packets_received_ratio = 0.893557
+avg_network_latency = 55.509404
+avg_queueing_latency = 175.503135
+average_hops = 3.799373
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 474
+packets_received = 405
+packets_received_ratio = 0.854430
+avg_network_latency = 47.246914
+avg_queueing_latency = 120.113580
+average_hops = 3.646914
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 963
+packets_received = 895
+packets_received_ratio = 0.929387
+avg_network_latency = 58.451397
+avg_queueing_latency = 273.525140
+average_hops = 3.745251
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.919498
+avg_queueing_latency = 3.024293
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 377
+packets_received = 310
+packets_received_ratio = 0.822281
+avg_network_latency = 42.838710
+avg_queueing_latency = 87.061290
+average_hops = 3.687097
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 26.190236
+avg_queueing_latency = 4.956929
+average_hops = 3.003857
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 894
+packets_received = 825
+packets_received_ratio = 0.922819
+avg_network_latency = 57.896970
+avg_queueing_latency = 285.715152
+average_hops = 3.619394
+throughput = NaN
+
+====== VC=1 | Pattern=uniform_random | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 535
+packets_received = 468
+packets_received_ratio = 0.874766
+avg_network_latency = 52.673077
+avg_queueing_latency = 176.673077
+average_hops = 3.867521
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25414
+packets_received = 25374
+packets_received_ratio = 0.998426
+avg_network_latency = 30.829313
+avg_queueing_latency = 22.667376
+average_hops = 3.000788
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.07 ======
+packets_injected = 37519
+packets_received = 37451
+packets_received_ratio = 0.998188
+avg_network_latency = 35.150864
+avg_queueing_latency = 1392.365518
+average_hops = 2.907214
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.10 ======
+packets_injected = 42295
+packets_received = 42226
+packets_received_ratio = 0.998369
+avg_network_latency = 33.836570
+avg_queueing_latency = 2695.119381
+average_hops = 2.795151
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.15 ======
+packets_injected = 42650
+packets_received = 42579
+packets_received_ratio = 0.998335
+avg_network_latency = 33.753071
+avg_queueing_latency = 5012.166185
+average_hops = 2.790077
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.20 ======
+packets_injected = 42655
+packets_received = 42587
+packets_received_ratio = 0.998406
+avg_network_latency = 33.752507
+avg_queueing_latency = 6270.264259
+average_hops = 2.789998
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.25 ======
+packets_injected = 42660
+packets_received = 42592
+packets_received_ratio = 0.998406
+avg_network_latency = 33.752982
+avg_queueing_latency = 7009.611875
+average_hops = 2.789978
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.40 ======
+packets_injected = 42664
+packets_received = 42598
+packets_received_ratio = 0.998453
+avg_network_latency = 33.787971
+avg_queueing_latency = 8120.108784
+average_hops = 2.807141
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.30 ======
+packets_injected = 42661
+packets_received = 42594
+packets_received_ratio = 0.998429
+avg_network_latency = 33.787928
+avg_queueing_latency = 7508.877518
+average_hops = 2.807267
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.653858
+avg_queueing_latency = 2.997936
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.50 ======
+packets_injected = 42665
+packets_received = 42598
+packets_received_ratio = 0.998430
+avg_network_latency = 33.753674
+avg_queueing_latency = 8478.538053
+average_hops = 2.789750
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 25.674986
+avg_queueing_latency = 4.733328
+average_hops = 3.003955
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25412
+packets_received = 25373
+packets_received_ratio = 0.998465
+avg_network_latency = 30.083475
+avg_queueing_latency = 20.595318
+average_hops = 3.001083
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=DOR3D | rate=0.60 ======
+packets_injected = 42665
+packets_received = 42598
+packets_received_ratio = 0.998430
+avg_network_latency = 33.754449
+avg_queueing_latency = 8729.120945
+average_hops = 2.789721
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.07 ======
+packets_injected = 37899
+packets_received = 37829
+packets_received_ratio = 0.998153
+avg_network_latency = 35.081498
+avg_queueing_latency = 1283.094980
+average_hops = 2.891551
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.10 ======
+packets_injected = 42306
+packets_received = 42239
+packets_received_ratio = 0.998416
+avg_network_latency = 33.882242
+avg_queueing_latency = 2779.947750
+average_hops = 2.811808
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.15 ======
+packets_injected = 42651
+packets_received = 42576
+packets_received_ratio = 0.998242
+avg_network_latency = 33.754557
+avg_queueing_latency = 5003.381342
+average_hops = 2.790299
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.20 ======
+packets_injected = 42613
+packets_received = 42537
+packets_received_ratio = 0.998217
+avg_network_latency = 33.779933
+avg_queueing_latency = 6259.582646
+average_hops = 2.788160
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.25 ======
+packets_injected = 42503
+packets_received = 42429
+packets_received_ratio = 0.998259
+avg_network_latency = 33.821184
+avg_queueing_latency = 7000.823163
+average_hops = 2.766803
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.30 ======
+packets_injected = 42658
+packets_received = 42590
+packets_received_ratio = 0.998406
+avg_network_latency = 33.758159
+avg_queueing_latency = 7511.563724
+average_hops = 2.790625
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.40 ======
+packets_injected = 42372
+packets_received = 42303
+packets_received_ratio = 0.998372
+avg_network_latency = 33.960617
+avg_queueing_latency = 8131.164031
+average_hops = 2.789792
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.50 ======
+packets_injected = 42551
+packets_received = 42481
+packets_received_ratio = 0.998355
+avg_network_latency = 33.829877
+avg_queueing_latency = 8490.145124
+average_hops = 2.786572
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=PAR3D | rate=0.60 ======
+packets_injected = 42665
+packets_received = 42597
+packets_received_ratio = 0.998406
+avg_network_latency = 33.789821
+avg_queueing_latency = 8746.761720
+average_hops = 2.807572
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 25.041601
+avg_queueing_latency = 3.069070
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 27.137087
+avg_queueing_latency = 5.994961
+average_hops = 3.003877
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 24332
+packets_received = 24288
+packets_received_ratio = 0.998192
+avg_network_latency = 35.728878
+avg_queueing_latency = 346.118289
+average_hops = 2.979123
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 35307
+packets_received = 35237
+packets_received_ratio = 0.998017
+avg_network_latency = 35.945228
+avg_queueing_latency = 1461.598973
+average_hops = 2.833370
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 41208
+packets_received = 41136
+packets_received_ratio = 0.998253
+avg_network_latency = 34.284495
+avg_queueing_latency = 2291.151036
+average_hops = 2.732850
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 41653
+packets_received = 41580
+packets_received_ratio = 0.998247
+avg_network_latency = 34.170851
+avg_queueing_latency = 4701.658586
+average_hops = 2.726795
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 41833
+packets_received = 41760
+packets_received_ratio = 0.998255
+avg_network_latency = 34.045977
+avg_queueing_latency = 6002.379622
+average_hops = 2.726957
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 41837
+packets_received = 41766
+packets_received_ratio = 0.998303
+avg_network_latency = 34.047191
+avg_queueing_latency = 6797.971029
+average_hops = 2.726833
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 41670
+packets_received = 41601
+packets_received_ratio = 0.998344
+avg_network_latency = 34.172592
+avg_queueing_latency = 7352.140429
+average_hops = 2.727980
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 41671
+packets_received = 41602
+packets_received_ratio = 0.998344
+avg_network_latency = 34.174030
+avg_queueing_latency = 8006.800899
+average_hops = 2.727746
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6296
+packets_received_ratio = 0.998573
+avg_network_latency = 29.229193
+avg_queueing_latency = 3.454574
+average_hops = 3.767496
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12707
+packets_received = 12675
+packets_received_ratio = 0.997482
+avg_network_latency = 39.735542
+avg_queueing_latency = 16.952268
+average_hops = 3.757028
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 41672
+packets_received = 41606
+packets_received_ratio = 0.998416
+avg_network_latency = 34.174085
+avg_queueing_latency = 8397.009590
+average_hops = 2.727853
+throughput = NaN
+
+====== VC=1 | Pattern=shuffle | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 41672
+packets_received = 41606
+packets_received_ratio = 0.998416
+avg_network_latency = 34.174807
+avg_queueing_latency = 8665.266188
+average_hops = 2.727846
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.04 ======
+packets_injected = 18637
+packets_received = 18581
+packets_received_ratio = 0.996995
+avg_network_latency = 64.389322
+avg_queueing_latency = 1673.817125
+average_hops = 3.285069
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.07 ======
+packets_injected = 22047
+packets_received = 21978
+packets_received_ratio = 0.996870
+avg_network_latency = 59.690554
+avg_queueing_latency = 3427.344526
+average_hops = 2.881589
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.10 ======
+packets_injected = 24402
+packets_received = 24333
+packets_received_ratio = 0.997172
+avg_network_latency = 55.768668
+avg_queueing_latency = 4259.212263
+average_hops = 2.611409
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.15 ======
+packets_injected = 24975
+packets_received = 24906
+packets_received_ratio = 0.997237
+avg_network_latency = 54.563358
+avg_queueing_latency = 6088.240183
+average_hops = 2.617069
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.20 ======
+packets_injected = 24772
+packets_received = 24701
+packets_received_ratio = 0.997134
+avg_network_latency = 55.156188
+avg_queueing_latency = 7053.137039
+average_hops = 2.604344
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.25 ======
+packets_injected = 24771
+packets_received = 24702
+packets_received_ratio = 0.997214
+avg_network_latency = 55.162780
+avg_queueing_latency = 7641.865436
+average_hops = 2.604217
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.30 ======
+packets_injected = 24602
+packets_received = 24533
+packets_received_ratio = 0.997195
+avg_network_latency = 55.367872
+avg_queueing_latency = 8037.977092
+average_hops = 2.593739
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.40 ======
+packets_injected = 24603
+packets_received = 24535
+packets_received_ratio = 0.997236
+avg_network_latency = 55.372977
+avg_queueing_latency = 8509.978398
+average_hops = 2.593738
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.50 ======
+packets_injected = 24770
+packets_received = 24701
+packets_received_ratio = 0.997214
+avg_network_latency = 55.092506
+avg_queueing_latency = 8787.860289
+average_hops = 2.603160
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6297
+packets_received_ratio = 0.998731
+avg_network_latency = 27.441162
+avg_queueing_latency = 3.181674
+average_hops = 3.767606
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12714
+packets_received = 12690
+packets_received_ratio = 0.998112
+avg_network_latency = 31.256422
+avg_queueing_latency = 6.917336
+average_hops = 3.758729
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=DOR3D | rate=0.60 ======
+packets_injected = 24959
+packets_received = 24891
+packets_received_ratio = 0.997276
+avg_network_latency = 54.655739
+avg_queueing_latency = 8982.954883
+average_hops = 2.614370
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.04 ======
+packets_injected = 22333
+packets_received = 22274
+packets_received_ratio = 0.997358
+avg_network_latency = 49.492188
+avg_queueing_latency = 900.621038
+average_hops = 3.530441
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.07 ======
+packets_injected = 27613
+packets_received = 27547
+packets_received_ratio = 0.997610
+avg_network_latency = 48.452899
+avg_queueing_latency = 2660.710785
+average_hops = 3.135519
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.10 ======
+packets_injected = 31032
+packets_received = 30963
+packets_received_ratio = 0.997776
+avg_network_latency = 45.228143
+avg_queueing_latency = 3599.794594
+average_hops = 2.890442
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.15 ======
+packets_injected = 31275
+packets_received = 31209
+packets_received_ratio = 0.997890
+avg_network_latency = 45.019001
+avg_queueing_latency = 5656.494921
+average_hops = 2.875535
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.20 ======
+packets_injected = 31269
+packets_received = 31193
+packets_received_ratio = 0.997569
+avg_network_latency = 45.055557
+avg_queueing_latency = 6729.134165
+average_hops = 2.876201
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.25 ======
+packets_injected = 31184
+packets_received = 31117
+packets_received_ratio = 0.997851
+avg_network_latency = 45.167208
+avg_queueing_latency = 7415.733072
+average_hops = 2.875235
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.30 ======
+packets_injected = 31210
+packets_received = 31138
+packets_received_ratio = 0.997693
+avg_network_latency = 45.119950
+avg_queueing_latency = 7847.615133
+average_hops = 2.875496
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.40 ======
+packets_injected = 31230
+packets_received = 31160
+packets_received_ratio = 0.997759
+avg_network_latency = 45.100866
+avg_queueing_latency = 8349.809884
+average_hops = 2.876787
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.50 ======
+packets_injected = 31177
+packets_received = 31106
+packets_received_ratio = 0.997723
+avg_network_latency = 45.185688
+avg_queueing_latency = 8679.374590
+average_hops = 2.876906
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6297
+packets_received_ratio = 0.998731
+avg_network_latency = 28.022550
+avg_queueing_latency = 3.282198
+average_hops = 3.767606
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=PAR3D | rate=0.60 ======
+packets_injected = 31212
+packets_received = 31139
+packets_received_ratio = 0.997661
+avg_network_latency = 45.160859
+avg_queueing_latency = 8894.826873
+average_hops = 2.878959
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12714
+packets_received = 12687
+packets_received_ratio = 0.997876
+avg_network_latency = 33.340427
+avg_queueing_latency = 8.590368
+average_hops = 3.758603
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 20798
+packets_received = 20741
+packets_received_ratio = 0.997259
+avg_network_latency = 54.243817
+avg_queueing_latency = 1345.181814
+average_hops = 3.484131
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 25487
+packets_received = 25420
+packets_received_ratio = 0.997371
+avg_network_latency = 52.048938
+avg_queueing_latency = 2793.814555
+average_hops = 3.042452
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 28360
+packets_received = 28289
+packets_received_ratio = 0.997496
+avg_network_latency = 49.024426
+avg_queueing_latency = 3650.754852
+average_hops = 2.755667
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 28495
+packets_received = 28429
+packets_received_ratio = 0.997684
+avg_network_latency = 48.969222
+avg_queueing_latency = 5707.738014
+average_hops = 2.738955
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 28674
+packets_received = 28599
+packets_received_ratio = 0.997384
+avg_network_latency = 48.578727
+avg_queueing_latency = 6772.392636
+average_hops = 2.750865
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 28674
+packets_received = 28604
+packets_received_ratio = 0.997559
+avg_network_latency = 48.589848
+avg_queueing_latency = 7425.085932
+average_hops = 2.756533
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 28647
+packets_received = 28578
+packets_received_ratio = 0.997591
+avg_network_latency = 48.657254
+avg_queueing_latency = 8368.856253
+average_hops = 2.744935
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 28619
+packets_received = 28550
+packets_received_ratio = 0.997589
+avg_network_latency = 48.657548
+avg_queueing_latency = 7860.020140
+average_hops = 2.743872
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 28616
+packets_received = 28544
+packets_received_ratio = 0.997484
+avg_network_latency = 48.675238
+avg_queueing_latency = 8685.174783
+average_hops = 2.744097
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.486821
+avg_queueing_latency = 2.903461
+average_hops = 2.243402
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 22.494449
+avg_queueing_latency = 4.122982
+average_hops = 2.247201
+throughput = NaN
+
+====== VC=1 | Pattern=transpose | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 28581
+packets_received = 28511
+packets_received_ratio = 0.997551
+avg_network_latency = 48.817334
+avg_queueing_latency = 8893.212830
+average_hops = 2.741356
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25447
+packets_received = 25417
+packets_received_ratio = 0.998821
+avg_network_latency = 22.494787
+avg_queueing_latency = 7.817288
+average_hops = 2.247414
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44701
+packets_received = 44654
+packets_received_ratio = 0.998949
+avg_network_latency = 22.495857
+avg_queueing_latency = 22.015631
+average_hops = 2.247929
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.10 ======
+packets_injected = 62459
+packets_received = 62393
+packets_received_ratio = 0.998943
+avg_network_latency = 22.497940
+avg_queueing_latency = 294.482779
+average_hops = 2.248956
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.15 ======
+packets_injected = 63967
+packets_received = 63898
+packets_received_ratio = 0.998921
+avg_network_latency = 22.500016
+avg_queueing_latency = 3303.958747
+average_hops = 2.250017
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.25 ======
+packets_injected = 63995
+packets_received = 63925
+packets_received_ratio = 0.998906
+avg_network_latency = 22.499930
+avg_queueing_latency = 5980.148268
+average_hops = 2.249985
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.20 ======
+packets_injected = 63985
+packets_received = 63917
+packets_received_ratio = 0.998937
+avg_network_latency = 22.499930
+avg_queueing_latency = 4975.552732
+average_hops = 2.249971
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.30 ======
+packets_injected = 63997
+packets_received = 63930
+packets_received_ratio = 0.998953
+avg_network_latency = 22.499984
+avg_queueing_latency = 6654.867261
+average_hops = 2.249996
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7478.615938
+average_hops = 2.249994
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7975.337796
+average_hops = 2.249997
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.486821
+avg_queueing_latency = 2.903461
+average_hops = 2.243402
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 22.494449
+avg_queueing_latency = 4.122982
+average_hops = 2.247201
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=DOR3D | rate=0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 8312.383640
+average_hops = 2.249997
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25447
+packets_received = 25417
+packets_received_ratio = 0.998821
+avg_network_latency = 22.494787
+avg_queueing_latency = 7.817288
+average_hops = 2.247414
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44701
+packets_received = 44654
+packets_received_ratio = 0.998949
+avg_network_latency = 22.495857
+avg_queueing_latency = 22.015631
+average_hops = 2.247929
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.10 ======
+packets_injected = 62459
+packets_received = 62393
+packets_received_ratio = 0.998943
+avg_network_latency = 22.497940
+avg_queueing_latency = 294.482779
+average_hops = 2.248956
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.15 ======
+packets_injected = 63967
+packets_received = 63898
+packets_received_ratio = 0.998921
+avg_network_latency = 22.500016
+avg_queueing_latency = 3303.958747
+average_hops = 2.250017
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.20 ======
+packets_injected = 63985
+packets_received = 63917
+packets_received_ratio = 0.998937
+avg_network_latency = 22.499930
+avg_queueing_latency = 4975.552732
+average_hops = 2.249971
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.25 ======
+packets_injected = 63995
+packets_received = 63925
+packets_received_ratio = 0.998906
+avg_network_latency = 22.499930
+avg_queueing_latency = 5980.148268
+average_hops = 2.249985
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.30 ======
+packets_injected = 63997
+packets_received = 63930
+packets_received_ratio = 0.998953
+avg_network_latency = 22.499984
+avg_queueing_latency = 6654.867261
+average_hops = 2.249996
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7478.615938
+average_hops = 2.249994
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7975.337796
+average_hops = 2.249997
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.916164
+avg_queueing_latency = 2.960146
+average_hops = 2.243412
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 23.548661
+avg_queueing_latency = 4.532362
+average_hops = 2.247216
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=PAR3D | rate=0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 8312.383640
+average_hops = 2.249997
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25440
+packets_received = 25404
+packets_received_ratio = 0.998585
+avg_network_latency = 25.619076
+avg_queueing_latency = 14.171627
+average_hops = 2.247519
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 41542
+packets_received = 41483
+packets_received_ratio = 0.998580
+avg_network_latency = 27.512041
+avg_queueing_latency = 593.191139
+average_hops = 2.266869
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 52058
+packets_received = 51989
+packets_received_ratio = 0.998675
+avg_network_latency = 26.824732
+avg_queueing_latency = 1370.405470
+average_hops = 2.298762
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 52928
+packets_received = 52857
+packets_received_ratio = 0.998659
+avg_network_latency = 26.781164
+avg_queueing_latency = 4078.397431
+average_hops = 2.302241
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 52944
+packets_received = 52871
+packets_received_ratio = 0.998621
+avg_network_latency = 26.782660
+avg_queueing_latency = 6441.402867
+average_hops = 2.302253
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 52936
+packets_received = 52865
+packets_received_ratio = 0.998659
+avg_network_latency = 26.782105
+avg_queueing_latency = 5549.985000
+average_hops = 2.302232
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 52946
+packets_received = 52876
+packets_received_ratio = 0.998678
+avg_network_latency = 26.782264
+avg_queueing_latency = 7037.743324
+average_hops = 2.302265
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 52950
+packets_received = 52883
+packets_received_ratio = 0.998735
+avg_network_latency = 26.782993
+avg_queueing_latency = 7765.938695
+average_hops = 2.302269
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.539536
+avg_queueing_latency = 2.903461
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 52950
+packets_received = 52882
+packets_received_ratio = 0.998716
+avg_network_latency = 26.783745
+avg_queueing_latency = 8205.363110
+average_hops = 2.302275
+throughput = NaN
+
+====== VC=1 | Pattern=tornado | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 52952
+packets_received = 52882
+packets_received_ratio = 0.998678
+avg_network_latency = 26.784388
+avg_queueing_latency = 8504.302655
+average_hops = 2.302276
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 21.538619
+avg_queueing_latency = 4.122982
+average_hops = 1.769300
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25447
+packets_received = 25422
+packets_received_ratio = 0.999018
+avg_network_latency = 21.511211
+avg_queueing_latency = 7.816065
+average_hops = 1.755596
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44701
+packets_received = 44655
+packets_received_ratio = 0.998971
+avg_network_latency = 21.499496
+avg_queueing_latency = 22.013660
+average_hops = 1.749807
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.10 ======
+packets_injected = 62459
+packets_received = 62394
+packets_received_ratio = 0.998959
+avg_network_latency = 21.497259
+avg_queueing_latency = 294.487675
+average_hops = 1.748576
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.15 ======
+packets_injected = 63967
+packets_received = 63901
+packets_received_ratio = 0.998968
+avg_network_latency = 21.499507
+avg_queueing_latency = 3304.118809
+average_hops = 1.749745
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.20 ======
+packets_injected = 63985
+packets_received = 63919
+packets_received_ratio = 0.998969
+avg_network_latency = 21.499930
+avg_queueing_latency = 4975.694770
+average_hops = 1.749874
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.25 ======
+packets_injected = 63995
+packets_received = 63931
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 5980.706512
+average_hops = 1.749909
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.30 ======
+packets_injected = 63997
+packets_received = 63933
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499883
+avg_queueing_latency = 6655.180767
+average_hops = 1.749880
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.539536
+avg_queueing_latency = 2.903461
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7478.615938
+average_hops = 1.749880
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7975.337796
+average_hops = 1.749845
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 21.538619
+avg_queueing_latency = 4.122982
+average_hops = 1.769300
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=DOR3D | rate=0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 8312.383640
+average_hops = 1.749851
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25447
+packets_received = 25422
+packets_received_ratio = 0.999018
+avg_network_latency = 21.511211
+avg_queueing_latency = 7.816065
+average_hops = 1.755596
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44701
+packets_received = 44655
+packets_received_ratio = 0.998971
+avg_network_latency = 21.499496
+avg_queueing_latency = 22.013660
+average_hops = 1.749807
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.10 ======
+packets_injected = 62459
+packets_received = 62394
+packets_received_ratio = 0.998959
+avg_network_latency = 21.497259
+avg_queueing_latency = 294.487675
+average_hops = 1.748576
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.15 ======
+packets_injected = 63967
+packets_received = 63901
+packets_received_ratio = 0.998968
+avg_network_latency = 21.499507
+avg_queueing_latency = 3304.118809
+average_hops = 1.749745
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.20 ======
+packets_injected = 63985
+packets_received = 63919
+packets_received_ratio = 0.998969
+avg_network_latency = 21.499930
+avg_queueing_latency = 4975.694770
+average_hops = 1.749874
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.25 ======
+packets_injected = 63995
+packets_received = 63931
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 5980.706512
+average_hops = 1.749909
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.30 ======
+packets_injected = 63997
+packets_received = 63933
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499883
+avg_queueing_latency = 6655.180767
+average_hops = 1.749880
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7478.615938
+average_hops = 1.749880
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7975.337796
+average_hops = 1.749845
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.625119
+avg_queueing_latency = 2.906161
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 21.706637
+avg_queueing_latency = 4.177703
+average_hops = 1.769256
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25445
+packets_received = 25420
+packets_received_ratio = 0.999017
+avg_network_latency = 21.769591
+avg_queueing_latency = 8.019355
+average_hops = 1.755398
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=PAR3D | rate=0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 8312.383640
+average_hops = 1.749851
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 44699
+packets_received = 44654
+packets_received_ratio = 0.998993
+avg_network_latency = 21.688830
+avg_queueing_latency = 22.698907
+average_hops = 1.749694
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 62454
+packets_received = 62387
+packets_received_ratio = 0.998927
+avg_network_latency = 21.515364
+avg_queueing_latency = 296.194416
+average_hops = 1.748369
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 63967
+packets_received = 63898
+packets_received_ratio = 0.998921
+avg_network_latency = 21.500063
+avg_queueing_latency = 3304.516057
+average_hops = 1.749683
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 63985
+packets_received = 63915
+packets_received_ratio = 0.998906
+avg_network_latency = 21.500196
+avg_queueing_latency = 4975.942955
+average_hops = 1.749812
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 63995
+packets_received = 63925
+packets_received_ratio = 0.998906
+avg_network_latency = 21.500555
+avg_queueing_latency = 5981.197560
+average_hops = 1.749795
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 63997
+packets_received = 63926
+packets_received_ratio = 0.998891
+avg_network_latency = 21.500673
+avg_queueing_latency = 6655.724791
+average_hops = 1.749739
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 63999
+packets_received = 63927
+packets_received_ratio = 0.998875
+avg_network_latency = 21.500899
+avg_queueing_latency = 7479.203388
+average_hops = 1.749722
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6296
+packets_received = 6290
+packets_received_ratio = 0.999047
+avg_network_latency = 25.579014
+avg_queueing_latency = 2.025596
+average_hops = 3.745082
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 63999
+packets_received = 63927
+packets_received_ratio = 0.998875
+avg_network_latency = 21.500931
+avg_queueing_latency = 7975.893801
+average_hops = 1.749686
+throughput = NaN
+
+====== VC=1 | Pattern=neighbor | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 63998
+packets_received = 63926
+packets_received_ratio = 0.998875
+avg_network_latency = 21.501361
+avg_queueing_latency = 8313.268498
+average_hops = 1.749622
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12691
+packets_received = 12683
+packets_received_ratio = 0.999370
+avg_network_latency = 25.809193
+avg_queueing_latency = 2.091776
+average_hops = 3.767957
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25435
+packets_received = 25408
+packets_received_ratio = 0.998938
+avg_network_latency = 26.446119
+avg_queueing_latency = 2.399205
+average_hops = 3.744059
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44755
+packets_received = 44681
+packets_received_ratio = 0.998347
+avg_network_latency = 28.679662
+avg_queueing_latency = 3.983796
+average_hops = 3.751379
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.10 ======
+packets_injected = 63896
+packets_received = 63767
+packets_received_ratio = 0.997981
+avg_network_latency = 34.164521
+avg_queueing_latency = 17.806154
+average_hops = 3.750432
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.15 ======
+packets_injected = 74474
+packets_received = 74311
+packets_received_ratio = 0.997811
+avg_network_latency = 41.991576
+avg_queueing_latency = 2172.277725
+average_hops = 3.738711
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.20 ======
+packets_injected = 73807
+packets_received = 73642
+packets_received_ratio = 0.997764
+avg_network_latency = 42.391421
+avg_queueing_latency = 4172.233522
+average_hops = 3.742783
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.25 ======
+packets_injected = 74321
+packets_received = 74156
+packets_received_ratio = 0.997780
+avg_network_latency = 42.139422
+avg_queueing_latency = 5302.581234
+average_hops = 3.738545
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.30 ======
+packets_injected = 74077
+packets_received = 73915
+packets_received_ratio = 0.997813
+avg_network_latency = 42.277819
+avg_queueing_latency = 6071.034526
+average_hops = 3.754448
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.40 ======
+packets_injected = 74037
+packets_received = 73877
+packets_received_ratio = 0.997839
+avg_network_latency = 42.308080
+avg_queueing_latency = 7050.185782
+average_hops = 3.743519
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.50 ======
+packets_injected = 73816
+packets_received = 73656
+packets_received_ratio = 0.997832
+avg_network_latency = 42.415757
+avg_queueing_latency = 7654.265247
+average_hops = 3.742632
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6296
+packets_received = 6290
+packets_received_ratio = 0.999047
+avg_network_latency = 25.559459
+avg_queueing_latency = 2.025755
+average_hops = 3.745082
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=DOR3D | rate=0.60 ======
+packets_injected = 74272
+packets_received = 74114
+packets_received_ratio = 0.997873
+avg_network_latency = 42.236757
+avg_queueing_latency = 8007.058504
+average_hops = 3.734714
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12691
+packets_received = 12683
+packets_received_ratio = 0.999370
+avg_network_latency = 25.740046
+avg_queueing_latency = 2.089963
+average_hops = 3.767957
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25435
+packets_received = 25408
+packets_received_ratio = 0.998938
+avg_network_latency = 26.240869
+avg_queueing_latency = 2.386886
+average_hops = 3.744059
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44754
+packets_received = 44682
+packets_received_ratio = 0.998391
+avg_network_latency = 28.067544
+avg_queueing_latency = 3.726378
+average_hops = 3.751347
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.10 ======
+packets_injected = 63943
+packets_received = 63823
+packets_received_ratio = 0.998123
+avg_network_latency = 32.365072
+avg_queueing_latency = 11.140028
+average_hops = 3.750848
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.15 ======
+packets_injected = 11567
+packets_received = 11431
+packets_received_ratio = 0.988242
+avg_network_latency = 40.985041
+avg_queueing_latency = 297.004811
+average_hops = 3.763625
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.20 ======
+packets_injected = 22851
+packets_received = 22714
+packets_received_ratio = 0.994005
+avg_network_latency = 42.437483
+avg_queueing_latency = 1216.219424
+average_hops = 3.759399
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.25 ======
+packets_injected = 66633
+packets_received = 66494
+packets_received_ratio = 0.997914
+avg_network_latency = 42.176377
+avg_queueing_latency = 4567.446115
+average_hops = 3.745315
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.30 ======
+packets_injected = 75645
+packets_received = 75477
+packets_received_ratio = 0.997779
+avg_network_latency = 42.358387
+avg_queueing_latency = 6011.534825
+average_hops = 3.765010
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.40 ======
+packets_injected = 36021
+packets_received = 35876
+packets_received_ratio = 0.995975
+avg_network_latency = 41.867572
+avg_queueing_latency = 3274.173793
+average_hops = 3.753205
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.50 ======
+packets_injected = 75584
+packets_received = 75421
+packets_received_ratio = 0.997843
+avg_network_latency = 42.397820
+avg_queueing_latency = 7557.827382
+average_hops = 3.756181
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6296
+packets_received = 6290
+packets_received_ratio = 0.999047
+avg_network_latency = 25.596025
+avg_queueing_latency = 2.025755
+average_hops = 3.745082
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=PAR3D | rate=0.60 ======
+packets_injected = 75803
+packets_received = 75633
+packets_received_ratio = 0.997757
+avg_network_latency = 42.269882
+avg_queueing_latency = 7981.474343
+average_hops = 3.749898
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12691
+packets_received = 12683
+packets_received_ratio = 0.999370
+avg_network_latency = 25.837499
+avg_queueing_latency = 2.092407
+average_hops = 3.767957
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25435
+packets_received = 25408
+packets_received_ratio = 0.998938
+avg_network_latency = 26.602920
+avg_queueing_latency = 2.411052
+average_hops = 3.744059
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 44754
+packets_received = 44679
+packets_received_ratio = 0.998324
+avg_network_latency = 29.750867
+avg_queueing_latency = 4.497572
+average_hops = 3.751347
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 8005
+packets_received = 7872
+packets_received_ratio = 0.983385
+avg_network_latency = 42.342226
+avg_queueing_latency = 74.631098
+average_hops = 3.769690
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 1750
+packets_received = 1617
+packets_received_ratio = 0.924000
+avg_network_latency = 48.311070
+avg_queueing_latency = 131.688930
+average_hops = 3.778602
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 1903
+packets_received = 1767
+packets_received_ratio = 0.928534
+avg_network_latency = 41.423882
+avg_queueing_latency = 60.078664
+average_hops = 3.722128
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 1286
+packets_received = 1151
+packets_received_ratio = 0.895023
+avg_network_latency = 38.085143
+avg_queueing_latency = 83.245873
+average_hops = 3.690704
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 2181
+packets_received = 2048
+packets_received_ratio = 0.939019
+avg_network_latency = 42.889160
+avg_queueing_latency = 194.344238
+average_hops = 3.709961
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 3876
+packets_received = 3738
+packets_received_ratio = 0.964396
+avg_network_latency = 47.083467
+avg_queueing_latency = 427.367309
+average_hops = 3.712948
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 2006
+packets_received = 1877
+packets_received_ratio = 0.935693
+avg_network_latency = 41.562067
+avg_queueing_latency = 222.579116
+average_hops = 3.781566
+throughput = NaN
+
+====== VC=2 | Pattern=uniform_random | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 2446
+packets_received = 2310
+packets_received_ratio = 0.944399
+avg_network_latency = 45.682684
+avg_queueing_latency = 289.999134
+average_hops = 3.755411
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.099873
+avg_queueing_latency = 2.021912
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 24.281316
+avg_queueing_latency = 2.095268
+average_hops = 3.003994
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44749
+packets_received = 44687
+packets_received_ratio = 0.998614
+avg_network_latency = 27.360418
+avg_queueing_latency = 4.569405
+average_hops = 2.999944
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25423
+packets_received_ratio = 0.998704
+avg_network_latency = 24.989498
+avg_queueing_latency = 2.448924
+average_hops = 3.002005
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.10 ======
+packets_injected = 63722
+packets_received = 63615
+packets_received_ratio = 0.998321
+avg_network_latency = 33.376531
+avg_queueing_latency = 39.389877
+average_hops = 2.995486
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.15 ======
+packets_injected = 76078
+packets_received = 75942
+packets_received_ratio = 0.998212
+avg_network_latency = 35.615667
+avg_queueing_latency = 1853.599392
+average_hops = 2.897611
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.20 ======
+packets_injected = 83587
+packets_received = 83439
+packets_received_ratio = 0.998229
+avg_network_latency = 34.460684
+avg_queueing_latency = 2894.611357
+average_hops = 2.826384
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.25 ======
+packets_injected = 84002
+packets_received = 83857
+packets_received_ratio = 0.998274
+avg_network_latency = 34.443887
+avg_queueing_latency = 4236.599032
+average_hops = 2.822839
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.057796
+avg_queueing_latency = 2.021912
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.30 ======
+packets_injected = 83972
+packets_received = 83829
+packets_received_ratio = 0.998297
+avg_network_latency = 34.476935
+avg_queueing_latency = 5200.926517
+average_hops = 2.825044
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.40 ======
+packets_injected = 83984
+packets_received = 83844
+packets_received_ratio = 0.998333
+avg_network_latency = 34.438242
+avg_queueing_latency = 6382.024319
+average_hops = 2.824841
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 24.158491
+avg_queueing_latency = 2.090465
+average_hops = 3.003994
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.50 ======
+packets_injected = 83987
+packets_received = 83850
+packets_received_ratio = 0.998369
+avg_network_latency = 34.463840
+avg_queueing_latency = 7094.975528
+average_hops = 2.824809
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=DOR3D | rate=0.60 ======
+packets_injected = 83989
+packets_received = 83856
+packets_received_ratio = 0.998416
+avg_network_latency = 34.475339
+avg_queueing_latency = 7575.641004
+average_hops = 2.824624
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25424
+packets_received_ratio = 0.998743
+avg_network_latency = 24.610643
+avg_queueing_latency = 2.399308
+average_hops = 3.001927
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44752
+packets_received = 44696
+packets_received_ratio = 0.998749
+avg_network_latency = 26.281904
+avg_queueing_latency = 3.948877
+average_hops = 2.999871
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.10 ======
+packets_injected = 63057
+packets_received = 62953
+packets_received_ratio = 0.998351
+avg_network_latency = 32.093641
+avg_queueing_latency = 129.579369
+average_hops = 2.977395
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.15 ======
+packets_injected = 77916
+packets_received = 77774
+packets_received_ratio = 0.998178
+avg_network_latency = 35.004475
+avg_queueing_latency = 1553.418957
+average_hops = 2.854882
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.20 ======
+packets_injected = 84044
+packets_received = 83897
+packets_received_ratio = 0.998251
+avg_network_latency = 34.151495
+avg_queueing_latency = 2883.202439
+average_hops = 2.799394
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.25 ======
+packets_injected = 84240
+packets_received = 84091
+packets_received_ratio = 0.998231
+avg_network_latency = 34.156949
+avg_queueing_latency = 4238.144308
+average_hops = 2.803743
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.30 ======
+packets_injected = 84392
+packets_received = 84251
+packets_received_ratio = 0.998329
+avg_network_latency = 34.129043
+avg_queueing_latency = 5191.365634
+average_hops = 2.800896
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.40 ======
+packets_injected = 84210
+packets_received = 84057
+packets_received_ratio = 0.998183
+avg_network_latency = 34.250651
+avg_queueing_latency = 6395.039438
+average_hops = 2.810721
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.105907
+avg_queueing_latency = 2.021912
+average_hops = 3.009287
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.50 ======
+packets_injected = 84322
+packets_received = 84178
+packets_received_ratio = 0.998292
+avg_network_latency = 34.208606
+avg_queueing_latency = 7103.264547
+average_hops = 2.817186
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=PAR3D | rate=0.60 ======
+packets_injected = 84272
+packets_received = 84129
+packets_received_ratio = 0.998303
+avg_network_latency = 34.230777
+avg_queueing_latency = 7589.141972
+average_hops = 2.817875
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 24.300134
+avg_queueing_latency = 2.096370
+average_hops = 3.003994
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25424
+packets_received_ratio = 0.998743
+avg_network_latency = 25.253894
+avg_queueing_latency = 2.499449
+average_hops = 3.001917
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 44555
+packets_received = 44486
+packets_received_ratio = 0.998451
+avg_network_latency = 31.305197
+avg_queueing_latency = 36.770422
+average_hops = 2.994506
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 59265
+packets_received = 59165
+packets_received_ratio = 0.998313
+avg_network_latency = 34.846784
+avg_queueing_latency = 508.872864
+average_hops = 2.948860
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 73750
+packets_received = 73611
+packets_received_ratio = 0.998115
+avg_network_latency = 35.642092
+avg_queueing_latency = 1556.679056
+average_hops = 2.808450
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 82028
+packets_received = 81877
+packets_received_ratio = 0.998159
+avg_network_latency = 34.572933
+avg_queueing_latency = 2288.936258
+average_hops = 2.716418
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 82648
+packets_received = 82505
+packets_received_ratio = 0.998270
+avg_network_latency = 34.478747
+avg_queueing_latency = 3748.160511
+average_hops = 2.721122
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 82637
+packets_received = 82498
+packets_received_ratio = 0.998318
+avg_network_latency = 34.461017
+avg_queueing_latency = 4766.148634
+average_hops = 2.710904
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 25.890441
+avg_queueing_latency = 2.021912
+average_hops = 3.767484
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 82835
+packets_received = 82692
+packets_received_ratio = 0.998274
+avg_network_latency = 34.472029
+avg_queueing_latency = 6856.381923
+average_hops = 2.730358
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 82634
+packets_received = 82491
+packets_received_ratio = 0.998269
+avg_network_latency = 34.522360
+avg_queueing_latency = 6076.330751
+average_hops = 2.724076
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12700
+packets_received_ratio = 0.998585
+avg_network_latency = 26.733465
+avg_queueing_latency = 2.106693
+average_hops = 3.759456
+throughput = NaN
+
+====== VC=2 | Pattern=shuffle | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 82695
+packets_received = 82554
+packets_received_ratio = 0.998295
+avg_network_latency = 34.538653
+avg_queueing_latency = 7390.432711
+average_hops = 2.731928
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25453
+packets_received = 25401
+packets_received_ratio = 0.997957
+avg_network_latency = 33.886304
+avg_queueing_latency = 4.991221
+average_hops = 3.759939
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.07 ======
+packets_injected = 35893
+packets_received = 35783
+packets_received_ratio = 0.996935
+avg_network_latency = 62.138921
+avg_queueing_latency = 1315.654976
+average_hops = 3.412625
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.10 ======
+packets_injected = 39920
+packets_received = 39789
+packets_received_ratio = 0.996718
+avg_network_latency = 63.184398
+avg_queueing_latency = 2503.701903
+average_hops = 3.118884
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.20 ======
+packets_injected = 49289
+packets_received = 49149
+packets_received_ratio = 0.997160
+avg_network_latency = 55.603898
+avg_queueing_latency = 4247.825510
+average_hops = 2.640527
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.15 ======
+packets_injected = 45876
+packets_received = 45738
+packets_received_ratio = 0.996992
+avg_network_latency = 58.392190
+avg_queueing_latency = 3708.085159
+average_hops = 2.896988
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.25 ======
+packets_injected = 49499
+packets_received = 49354
+packets_received_ratio = 0.997071
+avg_network_latency = 55.533006
+avg_queueing_latency = 5408.706305
+average_hops = 2.649855
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.30 ======
+packets_injected = 49580
+packets_received = 49438
+packets_received_ratio = 0.997136
+avg_network_latency = 55.507343
+avg_queueing_latency = 6175.011489
+average_hops = 2.657258
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.40 ======
+packets_injected = 49431
+packets_received = 49288
+packets_received_ratio = 0.997107
+avg_network_latency = 55.588176
+avg_queueing_latency = 7106.926554
+average_hops = 2.642140
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.50 ======
+packets_injected = 49793
+packets_received = 49654
+packets_received_ratio = 0.997208
+avg_network_latency = 55.293531
+avg_queueing_latency = 7667.049764
+average_hops = 2.662525
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 25.668943
+avg_queueing_latency = 2.022388
+average_hops = 3.767484
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=DOR3D | rate=0.60 ======
+packets_injected = 49850
+packets_received = 49711
+packets_received_ratio = 0.997212
+avg_network_latency = 55.222426
+avg_queueing_latency = 8049.552715
+average_hops = 2.668326
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12700
+packets_received_ratio = 0.998585
+avg_network_latency = 26.049055
+avg_queueing_latency = 2.095039
+average_hops = 3.759456
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25455
+packets_received = 25414
+packets_received_ratio = 0.998389
+avg_network_latency = 27.922838
+avg_queueing_latency = 2.601834
+average_hops = 3.760826
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.07 ======
+packets_injected = 43541
+packets_received = 43445
+packets_received_ratio = 0.997795
+avg_network_latency = 42.062055
+avg_queueing_latency = 252.679894
+average_hops = 3.718182
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.10 ======
+packets_injected = 50103
+packets_received = 49974
+packets_received_ratio = 0.997425
+avg_network_latency = 49.770301
+avg_queueing_latency = 1470.744287
+average_hops = 3.400383
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.15 ======
+packets_injected = 57144
+packets_received = 57008
+packets_received_ratio = 0.997620
+avg_network_latency = 47.466882
+avg_queueing_latency = 2751.033206
+average_hops = 3.102326
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.20 ======
+packets_injected = 62108
+packets_received = 61954
+packets_received_ratio = 0.997520
+avg_network_latency = 45.369710
+avg_queueing_latency = 3586.291264
+average_hops = 2.911606
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.25 ======
+packets_injected = 62303
+packets_received = 62161
+packets_received_ratio = 0.997721
+avg_network_latency = 45.278663
+avg_queueing_latency = 4843.674539
+average_hops = 2.903896
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.30 ======
+packets_injected = 62417
+packets_received = 62275
+packets_received_ratio = 0.997725
+avg_network_latency = 45.221244
+avg_queueing_latency = 5696.188631
+average_hops = 2.907222
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.40 ======
+packets_injected = 62372
+packets_received = 62226
+packets_received_ratio = 0.997659
+avg_network_latency = 45.270980
+avg_queueing_latency = 6761.002218
+average_hops = 2.904544
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 25.709432
+avg_queueing_latency = 2.022388
+average_hops = 3.767484
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.50 ======
+packets_injected = 62266
+packets_received = 62120
+packets_received_ratio = 0.997655
+avg_network_latency = 45.335174
+avg_queueing_latency = 7392.605216
+average_hops = 2.902850
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12700
+packets_received_ratio = 0.998585
+avg_network_latency = 26.161024
+avg_queueing_latency = 2.098110
+average_hops = 3.759456
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=PAR3D | rate=0.60 ======
+packets_injected = 62267
+packets_received = 62124
+packets_received_ratio = 0.997703
+avg_network_latency = 45.337792
+avg_queueing_latency = 7814.972990
+average_hops = 2.905220
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25455
+packets_received = 25412
+packets_received_ratio = 0.998311
+avg_network_latency = 28.627774
+avg_queueing_latency = 2.701952
+average_hops = 3.760665
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 48133
+packets_received = 48005
+packets_received_ratio = 0.997341
+avg_network_latency = 51.522737
+avg_queueing_latency = 1693.638954
+average_hops = 3.389083
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 42320
+packets_received = 42214
+packets_received_ratio = 0.997495
+avg_network_latency = 48.806154
+avg_queueing_latency = 457.915194
+average_hops = 3.682067
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 54427
+packets_received = 54287
+packets_received_ratio = 0.997428
+avg_network_latency = 49.687771
+avg_queueing_latency = 2909.504338
+average_hops = 3.056608
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 58673
+packets_received = 58533
+packets_received_ratio = 0.997614
+avg_network_latency = 47.633848
+avg_queueing_latency = 3720.604548
+average_hops = 2.845852
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 58779
+packets_received = 58638
+packets_received_ratio = 0.997601
+avg_network_latency = 47.638852
+avg_queueing_latency = 4962.027269
+average_hops = 2.842210
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 58858
+packets_received = 58717
+packets_received_ratio = 0.997604
+avg_network_latency = 47.553400
+avg_queueing_latency = 5794.885927
+average_hops = 2.837673
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 58877
+packets_received = 58737
+packets_received_ratio = 0.997622
+avg_network_latency = 47.539013
+avg_queueing_latency = 6822.090897
+average_hops = 2.836440
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 58875
+packets_received = 58729
+packets_received_ratio = 0.997520
+avg_network_latency = 47.566654
+avg_queueing_latency = 7442.637419
+average_hops = 2.840006
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.496030
+avg_queueing_latency = 2.021912
+average_hops = 2.243402
+throughput = NaN
+
+====== VC=2 | Pattern=transpose | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 58798
+packets_received = 58656
+packets_received_ratio = 0.997585
+avg_network_latency = 47.615078
+avg_queueing_latency = 7859.078457
+average_hops = 2.836593
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 22.510826
+avg_queueing_latency = 2.087080
+average_hops = 2.247191
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25425
+packets_received_ratio = 0.998782
+avg_network_latency = 22.522989
+avg_queueing_latency = 2.350285
+average_hops = 2.247381
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44700
+packets_received_ratio = 0.998816
+avg_network_latency = 22.533154
+avg_queueing_latency = 3.158233
+average_hops = 2.247916
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.10 ======
+packets_injected = 63908
+packets_received = 63835
+packets_received_ratio = 0.998858
+avg_network_latency = 22.536336
+avg_queueing_latency = 4.610308
+average_hops = 2.248107
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.15 ======
+packets_injected = 95907
+packets_received = 95790
+packets_received_ratio = 0.998780
+avg_network_latency = 22.525211
+avg_queueing_latency = 11.977012
+average_hops = 2.248055
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.20 ======
+packets_injected = 125911
+packets_received = 125764
+packets_received_ratio = 0.998833
+avg_network_latency = 22.502290
+avg_queueing_latency = 207.897006
+average_hops = 2.249874
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.25 ======
+packets_injected = 127945
+packets_received = 127805
+packets_received_ratio = 0.998906
+avg_network_latency = 22.499973
+avg_queueing_latency = 1986.081061
+average_hops = 2.249961
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.30 ======
+packets_injected = 127978
+packets_received = 127840
+packets_received_ratio = 0.998922
+avg_network_latency = 22.499977
+avg_queueing_latency = 3325.357924
+average_hops = 2.249985
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.40 ======
+packets_injected = 127994
+packets_received = 127859
+packets_received_ratio = 0.998945
+avg_network_latency = 22.500012
+avg_queueing_latency = 4977.277360
+average_hops = 2.249986
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.498253
+avg_queueing_latency = 2.021912
+average_hops = 2.243402
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.50 ======
+packets_injected = 127998
+packets_received = 127867
+packets_received_ratio = 0.998977
+avg_network_latency = 22.500012
+avg_queueing_latency = 5973.300946
+average_hops = 2.249990
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 22.519565
+avg_queueing_latency = 2.087158
+average_hops = 2.247191
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=DOR3D | rate=0.60 ======
+packets_injected = 127998
+packets_received = 127869
+packets_received_ratio = 0.998992
+avg_network_latency = 22.500004
+avg_queueing_latency = 6644.542039
+average_hops = 2.249991
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25425
+packets_received_ratio = 0.998782
+avg_network_latency = 22.560197
+avg_queueing_latency = 2.355280
+average_hops = 2.247383
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44700
+packets_received_ratio = 0.998816
+avg_network_latency = 22.651141
+avg_queueing_latency = 3.187427
+average_hops = 2.247916
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.10 ======
+packets_injected = 63905
+packets_received = 63830
+packets_received_ratio = 0.998826
+avg_network_latency = 22.779571
+avg_queueing_latency = 4.756227
+average_hops = 2.248120
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.15 ======
+packets_injected = 95897
+packets_received = 95774
+packets_received_ratio = 0.998717
+avg_network_latency = 22.975442
+avg_queueing_latency = 13.473469
+average_hops = 2.248088
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.20 ======
+packets_injected = 125720
+packets_received = 125566
+packets_received_ratio = 0.998775
+avg_network_latency = 22.616624
+avg_queueing_latency = 235.221883
+average_hops = 2.250257
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.25 ======
+packets_injected = 127927
+packets_received = 127781
+packets_received_ratio = 0.998859
+avg_network_latency = 22.526213
+avg_queueing_latency = 1988.313419
+average_hops = 2.249995
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.30 ======
+packets_injected = 127964
+packets_received = 127825
+packets_received_ratio = 0.998914
+avg_network_latency = 22.525547
+avg_queueing_latency = 3326.853558
+average_hops = 2.250010
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.521435
+avg_queueing_latency = 2.022229
+average_hops = 2.243402
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.50 ======
+packets_injected = 127989
+packets_received = 127854
+packets_received_ratio = 0.998945
+avg_network_latency = 22.532913
+avg_queueing_latency = 5974.209700
+average_hops = 2.250011
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.40 ======
+packets_injected = 127980
+packets_received = 127841
+packets_received_ratio = 0.998914
+avg_network_latency = 22.557075
+avg_queueing_latency = 4978.750776
+average_hops = 2.250016
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 22.589875
+avg_queueing_latency = 2.087946
+average_hops = 2.247191
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=PAR3D | rate=0.60 ======
+packets_injected = 127985
+packets_received = 127852
+packets_received_ratio = 0.998961
+avg_network_latency = 22.557113
+avg_queueing_latency = 6646.050754
+average_hops = 2.250022
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25425
+packets_received_ratio = 0.998782
+avg_network_latency = 22.721298
+avg_queueing_latency = 2.367512
+average_hops = 2.247383
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44697
+packets_received_ratio = 0.998749
+avg_network_latency = 23.038235
+avg_queueing_latency = 3.315815
+average_hops = 2.247929
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 63906
+packets_received = 63826
+packets_received_ratio = 0.998748
+avg_network_latency = 23.570457
+avg_queueing_latency = 5.671372
+average_hops = 2.248143
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 94478
+packets_received = 94348
+packets_received_ratio = 0.998624
+avg_network_latency = 24.403443
+avg_queueing_latency = 136.013673
+average_hops = 2.251845
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 121585
+packets_received = 121431
+packets_received_ratio = 0.998733
+avg_network_latency = 23.431850
+avg_queueing_latency = 439.742677
+average_hops = 2.258782
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 124599
+packets_received = 124447
+packets_received_ratio = 0.998780
+avg_network_latency = 23.112449
+avg_queueing_latency = 2122.187863
+average_hops = 2.256683
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 122907
+packets_received = 122760
+packets_received_ratio = 0.998804
+avg_network_latency = 23.500057
+avg_queueing_latency = 3474.984800
+average_hops = 2.260317
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.548746
+avg_queueing_latency = 2.021912
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 127899
+packets_received = 127754
+packets_received_ratio = 0.998866
+avg_network_latency = 22.532837
+avg_queueing_latency = 4989.291036
+average_hops = 2.250187
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 125916
+packets_received = 125773
+packets_received_ratio = 0.998864
+avg_network_latency = 22.912072
+avg_queueing_latency = 6015.685012
+average_hops = 2.254148
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 21.554996
+avg_queueing_latency = 2.087080
+average_hops = 1.769255
+throughput = NaN
+
+====== VC=2 | Pattern=tornado | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 121683
+packets_received = 121539
+packets_received_ratio = 0.998817
+avg_network_latency = 23.768231
+avg_queueing_latency = 6746.968504
+average_hops = 2.263007
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25429
+packets_received_ratio = 0.998939
+avg_network_latency = 21.540367
+avg_queueing_latency = 2.350230
+average_hops = 1.756014
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44703
+packets_received_ratio = 0.998883
+avg_network_latency = 21.537525
+avg_queueing_latency = 3.158244
+average_hops = 1.750138
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.10 ======
+packets_injected = 63908
+packets_received = 63838
+packets_received_ratio = 0.998905
+avg_network_latency = 21.534086
+avg_queueing_latency = 4.611062
+average_hops = 1.746979
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.15 ======
+packets_injected = 95907
+packets_received = 95797
+packets_received_ratio = 0.998853
+avg_network_latency = 21.527543
+avg_queueing_latency = 11.976732
+average_hops = 1.749247
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.20 ======
+packets_injected = 125911
+packets_received = 125772
+packets_received_ratio = 0.998896
+avg_network_latency = 21.500159
+avg_queueing_latency = 207.904239
+average_hops = 1.748763
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.25 ======
+packets_injected = 127945
+packets_received = 127811
+packets_received_ratio = 0.998953
+avg_network_latency = 21.499832
+avg_queueing_latency = 1986.173029
+average_hops = 1.749861
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.30 ======
+packets_injected = 127978
+packets_received = 127845
+packets_received_ratio = 0.998961
+avg_network_latency = 21.499824
+avg_queueing_latency = 3325.473401
+average_hops = 1.749856
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.40 ======
+packets_injected = 127994
+packets_received = 127863
+packets_received_ratio = 0.998977
+avg_network_latency = 21.499894
+avg_queueing_latency = 4977.428435
+average_hops = 1.749837
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.549063
+avg_queueing_latency = 2.021912
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.50 ======
+packets_injected = 127998
+packets_received = 127869
+packets_received_ratio = 0.998992
+avg_network_latency = 21.499902
+avg_queueing_latency = 5973.392941
+average_hops = 1.749826
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 21.556885
+avg_queueing_latency = 2.087158
+average_hops = 1.769255
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=DOR3D | rate=0.60 ======
+packets_injected = 127998
+packets_received = 127870
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499937
+avg_queueing_latency = 6644.592821
+average_hops = 1.749846
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25429
+packets_received_ratio = 0.998939
+avg_network_latency = 21.549019
+avg_queueing_latency = 2.351017
+average_hops = 1.756014
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44703
+packets_received_ratio = 0.998883
+avg_network_latency = 21.567837
+avg_queueing_latency = 3.164105
+average_hops = 1.750138
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.10 ======
+packets_injected = 63908
+packets_received = 63838
+packets_received_ratio = 0.998905
+avg_network_latency = 21.590087
+avg_queueing_latency = 4.636251
+average_hops = 1.746961
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.15 ======
+packets_injected = 95906
+packets_received = 95795
+packets_received_ratio = 0.998843
+avg_network_latency = 21.604103
+avg_queueing_latency = 12.108764
+average_hops = 1.749188
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.20 ======
+packets_injected = 125900
+packets_received = 125761
+packets_received_ratio = 0.998896
+avg_network_latency = 21.539309
+avg_queueing_latency = 209.062325
+average_hops = 1.748598
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.25 ======
+packets_injected = 127944
+packets_received = 127809
+packets_received_ratio = 0.998945
+avg_network_latency = 21.515605
+avg_queueing_latency = 1986.334976
+average_hops = 1.749834
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.555891
+avg_queueing_latency = 2.021912
+average_hops = 1.769524
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.30 ======
+packets_injected = 127978
+packets_received = 127845
+packets_received_ratio = 0.998961
+avg_network_latency = 21.507740
+avg_queueing_latency = 3325.559185
+average_hops = 1.749839
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.40 ======
+packets_injected = 127994
+packets_received = 127860
+packets_received_ratio = 0.998953
+avg_network_latency = 21.531151
+avg_queueing_latency = 4977.446723
+average_hops = 1.749802
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.50 ======
+packets_injected = 127998
+packets_received = 127867
+packets_received_ratio = 0.998977
+avg_network_latency = 21.500027
+avg_queueing_latency = 5973.478677
+average_hops = 1.749795
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=PAR3D | rate=0.60 ======
+packets_injected = 127998
+packets_received = 127869
+packets_received_ratio = 0.998992
+avg_network_latency = 21.499996
+avg_queueing_latency = 6644.619314
+average_hops = 1.749833
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.02 ======
+packets_injected = 12718
+packets_received = 12701
+packets_received_ratio = 0.998663
+avg_network_latency = 21.566648
+avg_queueing_latency = 2.087316
+average_hops = 1.769255
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.04 ======
+packets_injected = 25456
+packets_received = 25429
+packets_received_ratio = 0.998939
+avg_network_latency = 21.573558
+avg_queueing_latency = 2.352354
+average_hops = 1.756014
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.07 ======
+packets_injected = 44753
+packets_received = 44703
+packets_received_ratio = 0.998883
+avg_network_latency = 21.592690
+avg_queueing_latency = 3.169832
+average_hops = 1.750138
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.10 ======
+packets_injected = 63908
+packets_received = 63837
+packets_received_ratio = 0.998889
+avg_network_latency = 21.596645
+avg_queueing_latency = 4.638893
+average_hops = 1.746961
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.15 ======
+packets_injected = 95907
+packets_received = 95794
+packets_received_ratio = 0.998822
+avg_network_latency = 21.585621
+avg_queueing_latency = 12.070192
+average_hops = 1.749170
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.20 ======
+packets_injected = 125903
+packets_received = 125760
+packets_received_ratio = 0.998864
+avg_network_latency = 21.545563
+avg_queueing_latency = 208.743018
+average_hops = 1.748602
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.25 ======
+packets_injected = 127945
+packets_received = 127810
+packets_received_ratio = 0.998945
+avg_network_latency = 21.515609
+avg_queueing_latency = 1986.267131
+average_hops = 1.749839
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.30 ======
+packets_injected = 127978
+packets_received = 127843
+packets_received_ratio = 0.998945
+avg_network_latency = 21.500090
+avg_queueing_latency = 3325.699014
+average_hops = 1.749817
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.40 ======
+packets_injected = 127994
+packets_received = 127856
+packets_received_ratio = 0.998922
+avg_network_latency = 21.546990
+avg_queueing_latency = 4977.665108
+average_hops = 1.749758
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.50 ======
+packets_injected = 127998
+packets_received = 127862
+packets_received_ratio = 0.998937
+avg_network_latency = 21.554950
+avg_queueing_latency = 5973.697541
+average_hops = 1.749729
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.01 ======
+packets_injected = 6296
+packets_received = 6290
+packets_received_ratio = 0.999047
+avg_network_latency = 25.534658
+avg_queueing_latency = 2.000795
+average_hops = 3.745082
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.02 ======
+packets_injected = 12691
+packets_received = 12684
+packets_received_ratio = 0.999448
+avg_network_latency = 25.633002
+avg_queueing_latency = 2.002286
+average_hops = 3.768085
+throughput = NaN
+
+====== VC=2 | Pattern=neighbor | Algo=OPAR3D | rate=0.60 ======
+packets_injected = 127998
+packets_received = 127863
+packets_received_ratio = 0.998945
+avg_network_latency = 21.523811
+avg_queueing_latency = 6644.907659
+average_hops = 1.749754
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.04 ======
+packets_injected = 25435
+packets_received = 25408
+packets_received_ratio = 0.998938
+avg_network_latency = 25.724890
+avg_queueing_latency = 2.030778
+average_hops = 3.744059
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.07 ======
+packets_injected = 44758
+packets_received = 44697
+packets_received_ratio = 0.998637
+avg_network_latency = 26.182384
+avg_queueing_latency = 2.123655
+average_hops = 3.751402
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.10 ======
+packets_injected = 64009
+packets_received = 63915
+packets_received_ratio = 0.998531
+avg_network_latency = 26.963170
+avg_queueing_latency = 2.413612
+average_hops = 3.751117
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.15 ======
+packets_injected = 95915
+packets_received = 95757
+packets_received_ratio = 0.998353
+avg_network_latency = 30.223232
+avg_queueing_latency = 5.142193
+average_hops = 3.747739
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.20 ======
+packets_injected = 119922
+packets_received = 119670
+packets_received_ratio = 0.997899
+avg_network_latency = 39.348442
+avg_queueing_latency = 623.137754
+average_hops = 3.741052
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.25 ======
+packets_injected = 121081
+packets_received = 120818
+packets_received_ratio = 0.997828
+avg_network_latency = 39.606499
+avg_queueing_latency = 2379.928959
+average_hops = 3.742303
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.01 ======
+packets_injected = 6296
+packets_received = 6290
+packets_received_ratio = 0.999047
+avg_network_latency = 25.530843
+avg_queueing_latency = 2.000795
+average_hops = 3.745082
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.30 ======
+packets_injected = 120542
+packets_received = 120292
+packets_received_ratio = 0.997926
+avg_network_latency = 39.805149
+avg_queueing_latency = 3681.932838
+average_hops = 3.752947
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.20 ======
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.30 ======
+FAILED (no stats)
+
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=DOR3D | rate=0.40 ======
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.07 ======
+FAILED (no stats)
+
+packets_injected = 121031
+packets_received = 120773
+packets_received_ratio = 0.997868
+avg_network_latency = 39.657101
+avg_queueing_latency = 5234.150290
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.10 ======
+FAILED (no stats)
+
+average_hops = 3.744153
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=OPAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.02 ======
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.10 ======
+FAILED (no stats)
+
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC=3 | Pattern=uniform_random | Algo=PAR3D | rate=0.15 ======
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=shuffle | Algo=DOR3D | rate=0.50 ======
+FAILED (no stats)
+
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_netw====== VC=3 | Pattern=transpose | Algo=DOR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.10 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=DOR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=DOR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=DOR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.10 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=DOR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.07 ======
+====== VC=3 | Pattern=transpose | Algo=DOR3D | rate=0.50 ======
+FAILED (no stats)
+
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=OPAR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=PAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=OPAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=transpose | Algo=PAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=OPAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=OPAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=OPAR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=3 | Pattern=tornado | Algo=OPAR3D | rate=0.10 ======
+FAILED (no ====== VC=4 | Pattern=transpose | Algo=OPAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=PAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.10 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=transpose | Algo=OPAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=transpose | Algo=OPAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=OPAR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=transpose | Algo=OPAR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.10 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.20 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.10 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.30 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.40 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.50 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=DOR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=PAR3D | rate=0.01 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.25 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.15 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=PAR3D | rate=0.02 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=PAR3D | rate=0.04 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=PAR3D | rate=0.07 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=tornado | Algo=DOR3D | rate=0.60 ======
+FAILED (no stats)
+
+====== VC=4 | Pattern=neighbor | Algo=PAR3D | rate=0.10 ======
+FAILED (no stats)
+
+=====

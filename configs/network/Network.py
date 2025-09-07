@@ -48,6 +48,12 @@ def define_options(parser):
         help="the number of rows in the mesh topology",
     )
     parser.add_argument(
+        "--mesh-cols",
+        type=int,
+        default=0,
+        help="the number of columns in the 3D mesh topology",
+    )
+    parser.add_argument(
         "--network",
         default="simple",
         choices=["simple", "garnet"],
@@ -118,6 +124,12 @@ def define_options(parser):
         help="""SimpleNetwork links uses a separate physical
             channel for each virtual network""",
     )
+    parser.add_argument(
+        "--wormhole",
+        action="store_true",
+        default=False,
+        help="Enable wormhole flow control",
+    )
 
 
 def create_network(options, ruby):
@@ -156,6 +168,7 @@ def create_network(options, ruby):
         ext_links=[],
         int_links=[],
         netifs=[],
+        enable_wormhole=options.wormhole,
     )
 
     return (network, IntLinkClass, ExtLinkClass, RouterClass, InterfaceClass)
@@ -165,10 +178,12 @@ def init_network(options, network, InterfaceClass):
 
     if options.network == "garnet":
         network.num_rows = options.mesh_rows
+        network.num_cols = options.mesh_cols
         network.vcs_per_vnet = options.vcs_per_vnet
         network.ni_flit_size = options.link_width_bits / 8
         network.routing_algorithm = options.routing_algorithm
         network.garnet_deadlock_threshold = options.garnet_deadlock_threshold
+        network.enable_wormhole = options.wormhole
 
         # Create Bridges and connect them to the corresponding links
         for intLink in network.int_links:

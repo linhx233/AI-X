@@ -35,6 +35,7 @@
 #include "debug/RubyNetwork.hh"
 #include "mem/ruby/network/garnet/InputUnit.hh"
 #include "mem/ruby/network/garnet/Router.hh"
+#include "mem/ruby/network/garnet/OutputUnit.hh"
 #include "mem/ruby/slicc_interface/Message.hh"
 
 namespace gem5
@@ -159,6 +160,34 @@ RoutingUnit::addOutDirection(PortDirection outport_dirn, int outport_idx)
     m_outports_idx2dirn[outport_idx]  = outport_dirn;
 }
 
+int
+RoutingUnit::chooseAdaptiveOutport(
+    const std::vector<PortDirection>& candidates)
+{
+    int best_outport = -1;
+    int best_metric = -1;
+
+    for (auto& dir : candidates) {
+        auto it = m_outports_dirn2idx.find(dir);
+        if (it == m_outports_dirn2idx.end()) continue;
+
+        int outport_idx = it->second;
+        OutputUnit* outunit = m_router->getOutputUnit(outport_idx);
+
+        int metric = outunit->countFreeVCs();
+        if (metric > best_metric) {
+            best_metric = metric;
+            best_outport = outport_idx;
+        }
+    }
+
+    if (best_outport == -1) {
+        panic("Adaptive routing: no valid outport\n");
+    }
+
+    return best_outport;
+}
+
 // outportCompute() is called by the InputUnit
 // It calls the routing table by default.
 // A template for adaptive topology-specific routing algorithm
@@ -193,6 +222,16 @@ RoutingUnit::outportCompute(RouteInfo route, int inport,
         // any custom algorithm
         case CUSTOM_: outport =
             outportComputeCustom(route, inport, inport_dirn); break;
+        case RING_:   outport =
+            outportComputeRing(route, inport, inport_dirn); break;
+        case _3DDOR_: outport =
+            outportCompute3DDOR(route, inport, inport_dirn); break;
+        case _3DOPAR_: outport =
+            outportCompute3DOPAR(route, inport, inport_dirn); break;
+        case _3DPAR_: outport =
+            outportCompute3DPAR(route, inport, inport_dirn); break;
+        case _3DNEW_: outport =
+            outportCompute3Dnew(route, inport, inport_dirn); break;
         default: outport =
             lookupRoutingTable(route.vnet, route.net_dest); break;
     }
@@ -268,6 +307,202 @@ RoutingUnit::outportComputeCustom(RouteInfo route,
                                  PortDirection inport_dirn)
 {
     panic("%s placeholder executed", __FUNCTION__);
+}
+
+int
+RoutingUnit::outportComputeRing(RouteInfo route,
+                               int inport,
+                               PortDirection inport_dirn)
+{
+    PortDirection outport_dirn = "Unknown";
+
+    int my_id = m_router->get_id();
+    int dest_id = route.dest_router;
+    int num_routers = m_router->get_net_ptr()->getNumRouters();
+    
+    // Clockwise distance
+    int dist_cw = (dest_id - my_id + num_routers) % num_routers;  
+    // Counter-clockwise distance
+    int dist_ccw = (my_id - dest_id + num_routers) % num_routers;
+
+    outport_dirn = (dist_cw <= dist_ccw) ? "Clockwise" : "Counterclockwise";
+    return m_outports_dirn2idx[outport_dirn];
+}
+
+int
+RoutingUnit::outportCompute3DDOR(RouteInfo route,
+                                 int inport,
+                                 PortDirection inport_dirn)
+{
+    PortDirection outport_dirn = "Unknown";
+
+    int num_cols  = m_router->get_net_ptr()->getNumCols();
+    int num_rows  = m_router->get_net_ptr()->getNumRows();
+    int num_depth = m_router->get_net_ptr()->getNumDepths();
+
+    int my_id = m_router->get_id();
+    int my_x = my_id % num_cols;
+    int my_y = (my_id / num_cols) % num_rows;
+    int my_z = my_id / (num_cols * num_rows);
+
+    int dest_id = route.dest_router;
+    int dest_x = dest_id % num_cols;
+    int dest_y = (dest_id / num_cols) % num_rows;
+    int dest_z = dest_id / (num_cols * num_rows);
+
+    int x_hops = dest_x - my_x;
+    int y_hops = dest_y - my_y;
+    int z_hops = dest_z - my_z;
+
+    // already checked in outportCompute()
+    assert(!(x_hops == 0 && y_hops == 0 && z_hops == 0));
+
+    if (x_hops != 0) {
+        outport_dirn = (x_hops > 0) ? "East" : "West";
+    } else if (y_hops != 0) {
+        outport_dirn = (y_hops > 0) ? "North" : "South";
+    } else if (z_hops != 0) {
+        outport_dirn = (z_hops > 0) ? "Up" : "Down";
+    }
+
+    return m_outports_dirn2idx[outport_dirn];
+}
+
+int
+RoutingUnit::outportCompute3DOPAR(RouteInfo route,
+                                  int inport,
+                                  PortDirection inport_dirn)
+{
+    int num_cols  = m_router->get_net_ptr()->getNumCols();
+    int num_rows  = m_router->get_net_ptr()->getNumRows();
+
+    int my_id = m_router->get_id();
+    int my_x = my_id % num_cols;
+    int my_y = (my_id / num_cols) % num_rows;
+    int my_z = my_id / (num_cols * num_rows);
+
+    int dest_id = route.dest_router;
+    int dest_x = dest_id % num_cols;
+    int dest_y = (dest_id / num_cols) % num_rows;
+    int dest_z = dest_id / (num_cols * num_rows);
+
+    int dx = dest_x - my_x;
+    int dy = dest_y - my_y;
+    int dz = dest_z - my_z;
+
+    assert(!(dx == 0 && dy == 0 && dz == 0));
+
+    // ---- Z 优先 ----
+    if (dz != 0) {
+        return m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"];
+    }
+
+    // ---- XY 平面 (Odd-Even) ----
+    std::vector<PortDirection> candidates;
+
+    if (dx > 0) { // East
+        if (!((my_x % 2 == 1) && (dy > 0))) {
+            candidates.push_back("East");
+        }
+        if (dy != 0) candidates.push_back((dy > 0) ? "North" : "South");
+    } else if (dx < 0) { // West
+        if (!((my_x % 2 == 0) && (dy < 0))) {
+            candidates.push_back("West");
+        }
+        if (dy != 0) candidates.push_back((dy > 0) ? "North" : "South");
+    } else { // dx == 0
+        candidates.push_back((dy > 0) ? "North" : "South");
+    }
+
+    return chooseAdaptiveOutport(candidates);
+}
+
+int
+RoutingUnit::outportCompute3DPAR(RouteInfo route,
+                                 int inport,
+                                 PortDirection inport_dirn)
+{
+    int num_cols  = m_router->get_net_ptr()->getNumCols();
+    int num_rows  = m_router->get_net_ptr()->getNumRows();
+
+    int my_id = m_router->get_id();
+    int my_x = my_id % num_cols;
+    int my_y = (my_id / num_cols) % num_rows;
+    int my_z = my_id / (num_cols * num_rows);
+
+    int dest_id = route.dest_router;
+    int dest_x = dest_id % num_cols;
+    int dest_y = (dest_id / num_cols) % num_rows;
+    int dest_z = dest_id / (num_cols * num_rows);
+
+    int dx = dest_x - my_x;
+    int dy = dest_y - my_y;
+    int dz = dest_z - my_z;
+
+    assert(!(dx == 0 && dy == 0 && dz == 0));
+
+    // ---- Z 优先 ----
+    if (dz != 0) {
+        return m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"];
+    }
+
+    // ---- XY 平面 ----
+    if (dx != 0 && dy != 0) {
+        std::vector<PortDirection> candidates;
+        candidates.push_back((dx > 0) ? "East" : "West");
+        candidates.push_back((dy > 0) ? "North" : "South");
+        return chooseAdaptiveOutport(candidates);
+    } else if (dx != 0) {
+        return m_outports_dirn2idx[(dx > 0) ? "East" : "West"];
+    } else {
+        return m_outports_dirn2idx[(dy > 0) ? "North" : "South"];
+    }
+}
+
+int
+RoutingUnit::outportCompute3Dnew(RouteInfo route,
+                                  int inport,
+                                  PortDirection inport_dirn)
+{
+    PortDirection outport_dirn = "Unknown";
+
+    int num_cols  = m_router->get_net_ptr()->getNumCols();
+    int num_rows  = m_router->get_net_ptr()->getNumRows();
+    int num_depth = m_router->get_net_ptr()->getNumDepths();
+
+    int my_id = m_router->get_id();
+    int my_x = my_id % num_cols;
+    int my_y = (my_id / num_cols) % num_rows;
+    int my_z = my_id / (num_cols * num_rows);
+
+    int dest_id = route.dest_router;
+    int dest_x = dest_id % num_cols;
+    int dest_y = (dest_id / num_cols) % num_rows;
+    int dest_z = dest_id / (num_cols * num_rows);
+
+    int dx = dest_x - my_x;
+    int dy = dest_y - my_y;
+    int dz = dest_z - my_z;
+
+    assert(!(dx == 0 && dy == 0 && dz == 0));
+
+    if (dx != 0) {
+        if ((my_x % 2 == 0) || (dx < 0)) {
+            outport_dirn = (dx > 0) ? "East" : "West";
+            return m_outports_dirn2idx[outport_dirn];
+        }
+    }
+    if (dy != 0) {
+        if ((my_y % 2 == 1) || (dy < 0)) {
+            outport_dirn = (dy > 0) ? "North" : "South";
+            return m_outports_dirn2idx[outport_dirn];
+        }
+    }
+    if (dz != 0) {
+        outport_dirn = (dz > 0) ? "Up" : "Down";
+    }
+
+    return m_outports_dirn2idx[outport_dirn];
 }
 
 } // namespace garnet

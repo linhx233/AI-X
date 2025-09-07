@@ -24,7 +24,7 @@
 
 \section*{Task 1}
 Run the test command, we have the following output in \verb`network_stats.txt`:
-\begin{lstlisting}[language={}]  
+\begin{lstlisting}[language={}]
 packets_injected = 5                       (Unspecified)
 packets_received = 2                       (Unspecified)
 average_packet_queueing_latency = 1000                       (Unspecified)
@@ -52,7 +52,7 @@ configs/example/garnet_synth_traffic.py \
 --network=garnet --num-cpus=64 --num-dirs=64 \
 --topology=Mesh_XY --mesh-rows=8 \
 --inj-vnet=0 --synthetic=uniform_random \
---sim-cycles=10000 --injectionrate=0.01 
+--sim-cycles=10000 --injectionrate=0.01
 
 echo > network_stats.txt
 grep "packets_injected::total" m5out/stats.txt | sed 's/system.ruby.network.packets_injected::total\s*/packets_injected = /' >> network_stats.txt
@@ -94,7 +94,7 @@ average_hops = 5.269952                       (Count)
 	\item \verb|--mem-channels-intlv MEM_CHANNELS_INTLV|: Memory channels interleave
 	\item \verb|--memchecker|
 	\item \verb|--external-memory-system EXTERNAL_MEMORY_SYSTEM|: use external ports of this \verb|port_type| for caches
-	
+
 	\item \verb|--tlm-memory TLM_MEMORY|: use external port for SystemC TLM cosimulation
 	\item \verb|--caches|
 	\item \verb|--l2cache|
@@ -114,7 +114,7 @@ average_hops = 5.269952                       (Count)
 	\item \verb|-m TICKS, --abs-max-tick TICKS|: Run to absolute simulated tick specified including ticks from a restored checkpoint
 	\item \verb|--rel-max-tick TICKS|: Simulate for specified number of ticks relative to the simulation start tick (e.g. if restoring a checkpoint)
 	\item \verb|--maxtime MAXTIME|: Run to the specified absolute simulated time in seconds
-	\item \verb|-P PARAM, --param PARAM|: Set a \verb|SimObject parameter| relative to the root node. An extended Python multi range slicing syntax can be used for arrays. 
+	\item \verb|-P PARAM, --param PARAM|: Set a \verb|SimObject parameter| relative to the root node. An extended Python multi range slicing syntax can be used for arrays.
 	\item \begin{verbatim}
 	--synthetic {uniform_random,tornado,bit_complement,bit_reverse,bit_rotation,neighbor,
 	shuffle,transpose}\end{verbatim}
@@ -146,11 +146,11 @@ average_hops = 5.269952                       (Count)
 	\item \verb|--garnet-deadlock-threshold GARNET_DEADLOCK_THRESHOLD|: network-level deadlock threshold.
 	\item \verb|--simple-physical-channels|: SimpleNetwork links uses a separate physical channel for each virtual network
 \end{itemize}
-The default values are defined in \verb|configs/common/Options.py| and \verb|configs/example/garnet_synth_traffic.py|.
+The default values are defined in \verb|configs/common/Options.py|, \verb|configs/network/Network.py| and \verb|configs| \verb|/example/garnet_synth_traffic.py|.
 
 2. The unit of \verb|sim-cycles| is cycles and the unit of \verb|router_latency,link_latency| is ticks. Cycles and ticks are related by the clock period. By default, 1 clock cycle is 1ns, and 1 tick is 1ps. The \verb|setGlobalFrequency()| function sets the tick frequency.
 
-3. Packets per node per cycle. 
+3. Packets per node per cycle.
 
 4. \verb|GarnetNetworkInterface| is defined in \verb|src/mem/ruby/network/garnet/GarnetNetworkInterface.hh| and implemented in \verb|src/mem/ruby/network/garnet/GarnetNetworkInterface.cc|. \verb|Router| is defined in \verb|src/mem/ruby/network/garnet/Router.hh| and implemented in \verb|src/mem/ruby/network/garnet/Router.cc|.
 

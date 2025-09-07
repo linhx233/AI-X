@@ -221,11 +221,13 @@ SwitchAllocator::arbitrate_outports()
                 m_router->grant_switch(inport, t_flit);
                 m_output_arbiter_activity++;
 
+                bool wormhole_enabled = m_router->get_net_ptr()->isWormholeEnabled();
+
                 if ((t_flit->get_type() == TAIL_) ||
                     t_flit->get_type() == HEAD_TAIL_) {
-
-                    // This Input VC should now be empty
-                    assert(!(input_unit->isReady(invc, curTick())));
+                    if (!wormhole_enabled)
+                        // This Input VC should now be empty
+                        assert(!(input_unit->isReady(invc, curTick())));
 
                     // Free this VC
                     input_unit->set_vc_idle(invc, curTick());
@@ -233,6 +235,7 @@ SwitchAllocator::arbitrate_outports()
                     // Send a credit back
                     // along with the information that this VC is now idle
                     input_unit->increment_credit(invc, true, curTick());
+
                 } else {
                     // Send a credit back
                     // but do not indicate that the VC is idle

@@ -151,6 +151,7 @@ InputUnit::increment_credit(int in_vc, bool free_signal, Tick curTime)
     m_credit_link->scheduleEventAbsolute(m_router->clockEdge(Cycles(1)));
 }
 
+
 bool
 InputUnit::functionalRead(Packet *pkt, WriteMask &mask)
 {

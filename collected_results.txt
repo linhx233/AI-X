@@ -1,0 +1,2149 @@
+====== VC1_neighbor_DOR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.539536
+avg_queueing_latency = 2.903461
+average_latency = 24.442998
+average_hops = 1.769524
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 21.538619
+avg_queueing_latency = 4.122982
+average_latency = 25.661601
+average_hops = 1.769300
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.04 ======
+packets_injected = 25447
+packets_received = 25422
+packets_received_ratio = 0.999018
+avg_network_latency = 21.511211
+avg_queueing_latency = 7.816065
+average_latency = 29.327276
+average_hops = 1.755596
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.07 ======
+packets_injected = 44701
+packets_received = 44655
+packets_received_ratio = 0.998971
+avg_network_latency = 21.499496
+avg_queueing_latency = 22.013660
+average_latency = 43.513156
+average_hops = 1.749807
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.10 ======
+packets_injected = 62459
+packets_received = 62394
+packets_received_ratio = 0.998959
+avg_network_latency = 21.497259
+avg_queueing_latency = 294.487675
+average_latency = 315.984934
+average_hops = 1.748576
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.15 ======
+packets_injected = 63967
+packets_received = 63901
+packets_received_ratio = 0.998968
+avg_network_latency = 21.499507
+avg_queueing_latency = 3304.118809
+average_latency = 3325.618316
+average_hops = 1.749745
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.20 ======
+packets_injected = 63985
+packets_received = 63919
+packets_received_ratio = 0.998969
+avg_network_latency = 21.499930
+avg_queueing_latency = 4975.694770
+average_latency = 4997.194700
+average_hops = 1.749874
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.25 ======
+packets_injected = 63995
+packets_received = 63931
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 5980.706512
+average_latency = 6002.206441
+average_hops = 1.749909
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.30 ======
+packets_injected = 63997
+packets_received = 63933
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499883
+avg_queueing_latency = 6655.180767
+average_latency = 6676.680650
+average_hops = 1.749880
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7478.615938
+average_latency = 7500.115868
+average_hops = 1.749880
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 7975.337796
+average_latency = 7996.837726
+average_hops = 1.749845
+throughput = NaN
+
+====== VC1_neighbor_DOR3D_rate0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 21.499930
+avg_queueing_latency = 8312.383640
+average_latency = 8333.883569
+average_hops = 1.749851
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 21.539536
+avg_queueing_latency = 2.903461
+average_latency = 24.442998
+average_hops = 1.769524
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 21.538619
+avg_queueing_latency = 4.122982
+average_latency = 25.661601
+average_hops = 1.769300
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.04 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.07 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.15 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.20 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.25 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.30 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.40 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_neighbor_PAR3D_rate0.50 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.919498
+avg_queueing_latency = 3.024293
+average_latency = 27.943792
+average_hops = 3.009287
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 26.190236
+avg_queueing_latency = 4.956929
+average_latency = 31.147165
+average_hops = 3.003857
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.04 ======
+packets_injected = 25414
+packets_received = 25374
+packets_received_ratio = 0.998426
+avg_network_latency = 30.829313
+avg_queueing_latency = 22.667376
+average_latency = 53.496690
+average_hops = 3.000788
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.07 ======
+packets_injected = 37519
+packets_received = 37451
+packets_received_ratio = 0.998188
+avg_network_latency = 35.150864
+avg_queueing_latency = 1392.365518
+average_latency = 1427.516381
+average_hops = 2.907214
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.10 ======
+packets_injected = 42295
+packets_received = 42226
+packets_received_ratio = 0.998369
+avg_network_latency = 33.836570
+avg_queueing_latency = 2695.119381
+average_latency = 2728.955951
+average_hops = 2.795151
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.15 ======
+packets_injected = 42650
+packets_received = 42579
+packets_received_ratio = 0.998335
+avg_network_latency = 33.753071
+avg_queueing_latency = 5012.166185
+average_latency = 5045.919256
+average_hops = 2.790077
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.20 ======
+packets_injected = 42655
+packets_received = 42587
+packets_received_ratio = 0.998406
+avg_network_latency = 33.752507
+avg_queueing_latency = 6270.264259
+average_latency = 6304.016766
+average_hops = 2.789998
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.25 ======
+packets_injected = 42660
+packets_received = 42592
+packets_received_ratio = 0.998406
+avg_network_latency = 33.752982
+avg_queueing_latency = 7009.611875
+average_latency = 7043.364857
+average_hops = 2.789978
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.30 ======
+packets_injected = 42661
+packets_received = 42594
+packets_received_ratio = 0.998429
+avg_network_latency = 33.787928
+avg_queueing_latency = 7508.877518
+average_latency = 7542.665446
+average_hops = 2.807267
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.40 ======
+packets_injected = 42664
+packets_received = 42598
+packets_received_ratio = 0.998453
+avg_network_latency = 33.787971
+avg_queueing_latency = 8120.108784
+average_latency = 8153.896756
+average_hops = 2.807141
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.50 ======
+packets_injected = 42665
+packets_received = 42598
+packets_received_ratio = 0.998430
+avg_network_latency = 33.753674
+avg_queueing_latency = 8478.538053
+average_latency = 8512.291727
+average_hops = 2.789750
+throughput = NaN
+
+====== VC1_shuffle_DOR3D_rate0.60 ======
+packets_injected = 42665
+packets_received = 42598
+packets_received_ratio = 0.998430
+avg_network_latency = 33.754449
+avg_queueing_latency = 8729.120945
+average_latency = 8762.875393
+average_hops = 2.789721
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.01 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.02 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.04 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.07 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.15 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.20 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.25 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.30 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.40 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.50 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_NEW3D_rate0.60 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 25.041601
+avg_queueing_latency = 3.069070
+average_latency = 28.110670
+average_hops = 3.009287
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 27.137087
+avg_queueing_latency = 5.994961
+average_latency = 33.132047
+average_hops = 3.003877
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.04 ======
+packets_injected = 24332
+packets_received = 24288
+packets_received_ratio = 0.998192
+avg_network_latency = 35.728878
+avg_queueing_latency = 346.118289
+average_latency = 381.847167
+average_hops = 2.979123
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.07 ======
+packets_injected = 35307
+packets_received = 35237
+packets_received_ratio = 0.998017
+avg_network_latency = 35.945228
+avg_queueing_latency = 1461.598973
+average_latency = 1497.544201
+average_hops = 2.833370
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.10 ======
+packets_injected = 41208
+packets_received = 41136
+packets_received_ratio = 0.998253
+avg_network_latency = 34.284495
+avg_queueing_latency = 2291.151036
+average_latency = 2325.435531
+average_hops = 2.732850
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.15 ======
+packets_injected = 41653
+packets_received = 41580
+packets_received_ratio = 0.998247
+avg_network_latency = 34.170851
+avg_queueing_latency = 4701.658586
+average_latency = 4735.829437
+average_hops = 2.726795
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.20 ======
+packets_injected = 41833
+packets_received = 41760
+packets_received_ratio = 0.998255
+avg_network_latency = 34.045977
+avg_queueing_latency = 6002.379622
+average_latency = 6036.425599
+average_hops = 2.726957
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.25 ======
+packets_injected = 41837
+packets_received = 41766
+packets_received_ratio = 0.998303
+avg_network_latency = 34.047191
+avg_queueing_latency = 6797.971029
+average_latency = 6832.018221
+average_hops = 2.726833
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.30 ======
+packets_injected = 41670
+packets_received = 41601
+packets_received_ratio = 0.998344
+avg_network_latency = 34.172592
+avg_queueing_latency = 7352.140429
+average_latency = 7386.313021
+average_hops = 2.727980
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.40 ======
+packets_injected = 41671
+packets_received = 41602
+packets_received_ratio = 0.998344
+avg_network_latency = 34.174030
+avg_queueing_latency = 8006.800899
+average_latency = 8040.974929
+average_hops = 2.727746
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.50 ======
+packets_injected = 41672
+packets_received = 41606
+packets_received_ratio = 0.998416
+avg_network_latency = 34.174085
+avg_queueing_latency = 8397.009590
+average_latency = 8431.183675
+average_hops = 2.727853
+throughput = NaN
+
+====== VC1_shuffle_OPAR3D_rate0.60 ======
+packets_injected = 41672
+packets_received = 41606
+packets_received_ratio = 0.998416
+avg_network_latency = 34.174807
+avg_queueing_latency = 8665.266188
+average_latency = 8699.440994
+average_hops = 2.727846
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 24.653858
+avg_queueing_latency = 2.997936
+average_latency = 27.651794
+average_hops = 3.009287
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 25.674986
+avg_queueing_latency = 4.733328
+average_latency = 30.408314
+average_hops = 3.003955
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.04 ======
+packets_injected = 25412
+packets_received = 25373
+packets_received_ratio = 0.998465
+avg_network_latency = 30.083475
+avg_queueing_latency = 20.595318
+average_latency = 50.678792
+average_hops = 3.001083
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.07 ======
+packets_injected = 37899
+packets_received = 37829
+packets_received_ratio = 0.998153
+avg_network_latency = 35.081498
+avg_queueing_latency = 1283.094980
+average_latency = 1318.176478
+average_hops = 2.891551
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.10 ======
+packets_injected = 42306
+packets_received = 42239
+packets_received_ratio = 0.998416
+avg_network_latency = 33.882242
+avg_queueing_latency = 2779.947750
+average_latency = 2813.829991
+average_hops = 2.811808
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.15 ======
+packets_injected = 42651
+packets_received = 42576
+packets_received_ratio = 0.998242
+avg_network_latency = 33.754557
+avg_queueing_latency = 5003.381342
+average_latency = 5037.135898
+average_hops = 2.790299
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.20 ======
+packets_injected = 42613
+packets_received = 42537
+packets_received_ratio = 0.998217
+avg_network_latency = 33.779933
+avg_queueing_latency = 6259.582646
+average_latency = 6293.362578
+average_hops = 2.788160
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.25 ======
+packets_injected = 42503
+packets_received = 42429
+packets_received_ratio = 0.998259
+avg_network_latency = 33.821184
+avg_queueing_latency = 7000.823163
+average_latency = 7034.644347
+average_hops = 2.766803
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.30 ======
+packets_injected = 42658
+packets_received = 42590
+packets_received_ratio = 0.998406
+avg_network_latency = 33.758159
+avg_queueing_latency = 7511.563724
+average_latency = 7545.321883
+average_hops = 2.790625
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.40 ======
+packets_injected = 42372
+packets_received = 42303
+packets_received_ratio = 0.998372
+avg_network_latency = 33.960617
+avg_queueing_latency = 8131.164031
+average_latency = 8165.124648
+average_hops = 2.789792
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.50 ======
+packets_injected = 42551
+packets_received = 42481
+packets_received_ratio = 0.998355
+avg_network_latency = 33.829877
+avg_queueing_latency = 8490.145124
+average_latency = 8523.975001
+average_hops = 2.786572
+throughput = NaN
+
+====== VC1_shuffle_PAR3D_rate0.60 ======
+packets_injected = 42665
+packets_received = 42597
+packets_received_ratio = 0.998406
+avg_network_latency = 33.789821
+avg_queueing_latency = 8746.761720
+average_latency = 8780.551541
+average_hops = 2.807572
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.486821
+avg_queueing_latency = 2.903461
+average_latency = 25.390283
+average_hops = 2.243402
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 22.494449
+avg_queueing_latency = 4.122982
+average_latency = 26.617432
+average_hops = 2.247201
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.04 ======
+packets_injected = 25447
+packets_received = 25417
+packets_received_ratio = 0.998821
+avg_network_latency = 22.494787
+avg_queueing_latency = 7.817288
+average_latency = 30.312075
+average_hops = 2.247414
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.07 ======
+packets_injected = 44701
+packets_received = 44654
+packets_received_ratio = 0.998949
+avg_network_latency = 22.495857
+avg_queueing_latency = 22.015631
+average_latency = 44.511488
+average_hops = 2.247929
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.10 ======
+packets_injected = 62459
+packets_received = 62393
+packets_received_ratio = 0.998943
+avg_network_latency = 22.497940
+avg_queueing_latency = 294.482779
+average_latency = 316.980719
+average_hops = 2.248956
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.15 ======
+packets_injected = 63967
+packets_received = 63898
+packets_received_ratio = 0.998921
+avg_network_latency = 22.500016
+avg_queueing_latency = 3303.958747
+average_latency = 3326.458762
+average_hops = 2.250017
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.20 ======
+packets_injected = 63985
+packets_received = 63917
+packets_received_ratio = 0.998937
+avg_network_latency = 22.499930
+avg_queueing_latency = 4975.552732
+average_latency = 4998.052662
+average_hops = 2.249971
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.25 ======
+packets_injected = 63995
+packets_received = 63925
+packets_received_ratio = 0.998906
+avg_network_latency = 22.499930
+avg_queueing_latency = 5980.148268
+average_latency = 6002.648197
+average_hops = 2.249985
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.30 ======
+packets_injected = 63997
+packets_received = 63930
+packets_received_ratio = 0.998953
+avg_network_latency = 22.499984
+avg_queueing_latency = 6654.867261
+average_latency = 6677.367245
+average_hops = 2.249996
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7478.615938
+average_latency = 7501.115946
+average_hops = 2.249994
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7975.337796
+average_latency = 7997.837804
+average_hops = 2.249997
+throughput = NaN
+
+====== VC1_tornado_DOR3D_rate0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 8312.383640
+average_latency = 8334.883647
+average_hops = 2.249997
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.01 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.02 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.04 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.07 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.15 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.20 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.25 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.30 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.40 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.50 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_NEW3D_rate0.60 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.916164
+avg_queueing_latency = 2.960146
+average_latency = 25.876310
+average_hops = 2.243412
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12700
+packets_received_ratio = 0.998663
+avg_network_latency = 23.548661
+avg_queueing_latency = 4.532362
+average_latency = 28.081024
+average_hops = 2.247216
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.04 ======
+packets_injected = 25440
+packets_received = 25404
+packets_received_ratio = 0.998585
+avg_network_latency = 25.619076
+avg_queueing_latency = 14.171627
+average_latency = 39.790702
+average_hops = 2.247519
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.07 ======
+packets_injected = 41542
+packets_received = 41483
+packets_received_ratio = 0.998580
+avg_network_latency = 27.512041
+avg_queueing_latency = 593.191139
+average_latency = 620.703180
+average_hops = 2.266869
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.10 ======
+packets_injected = 52058
+packets_received = 51989
+packets_received_ratio = 0.998675
+avg_network_latency = 26.824732
+avg_queueing_latency = 1370.405470
+average_latency = 1397.230203
+average_hops = 2.298762
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.15 ======
+packets_injected = 52928
+packets_received = 52857
+packets_received_ratio = 0.998659
+avg_network_latency = 26.781164
+avg_queueing_latency = 4078.397431
+average_latency = 4105.178595
+average_hops = 2.302241
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.20 ======
+packets_injected = 52936
+packets_received = 52865
+packets_received_ratio = 0.998659
+avg_network_latency = 26.782105
+avg_queueing_latency = 5549.985000
+average_latency = 5576.767105
+average_hops = 2.302232
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.25 ======
+packets_injected = 52944
+packets_received = 52871
+packets_received_ratio = 0.998621
+avg_network_latency = 26.782660
+avg_queueing_latency = 6441.402867
+average_latency = 6468.185527
+average_hops = 2.302253
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.30 ======
+packets_injected = 52946
+packets_received = 52876
+packets_received_ratio = 0.998678
+avg_network_latency = 26.782264
+avg_queueing_latency = 7037.743324
+average_latency = 7064.525588
+average_hops = 2.302265
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.40 ======
+packets_injected = 52950
+packets_received = 52883
+packets_received_ratio = 0.998735
+avg_network_latency = 26.782993
+avg_queueing_latency = 7765.938695
+average_latency = 7792.721687
+average_hops = 2.302269
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.50 ======
+packets_injected = 52950
+packets_received = 52882
+packets_received_ratio = 0.998716
+avg_network_latency = 26.783745
+avg_queueing_latency = 8205.363110
+average_latency = 8232.146855
+average_hops = 2.302275
+throughput = NaN
+
+====== VC1_tornado_OPAR3D_rate0.60 ======
+packets_injected = 52952
+packets_received = 52882
+packets_received_ratio = 0.998678
+avg_network_latency = 26.784388
+avg_queueing_latency = 8504.302655
+average_latency = 8531.087043
+average_hops = 2.302276
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6298
+packets_received_ratio = 0.998890
+avg_network_latency = 22.486821
+avg_queueing_latency = 2.903461
+average_latency = 25.390283
+average_hops = 2.243402
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.02 ======
+packets_injected = 12717
+packets_received = 12701
+packets_received_ratio = 0.998742
+avg_network_latency = 22.494449
+avg_queueing_latency = 4.122982
+average_latency = 26.617432
+average_hops = 2.247201
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.04 ======
+packets_injected = 25447
+packets_received = 25417
+packets_received_ratio = 0.998821
+avg_network_latency = 22.494787
+avg_queueing_latency = 7.817288
+average_latency = 30.312075
+average_hops = 2.247414
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.07 ======
+packets_injected = 44701
+packets_received = 44654
+packets_received_ratio = 0.998949
+avg_network_latency = 22.495857
+avg_queueing_latency = 22.015631
+average_latency = 44.511488
+average_hops = 2.247929
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.10 ======
+packets_injected = 62459
+packets_received = 62393
+packets_received_ratio = 0.998943
+avg_network_latency = 22.497940
+avg_queueing_latency = 294.482779
+average_latency = 316.980719
+average_hops = 2.248956
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.15 ======
+packets_injected = 63967
+packets_received = 63898
+packets_received_ratio = 0.998921
+avg_network_latency = 22.500016
+avg_queueing_latency = 3303.958747
+average_latency = 3326.458762
+average_hops = 2.250017
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.20 ======
+packets_injected = 63985
+packets_received = 63917
+packets_received_ratio = 0.998937
+avg_network_latency = 22.499930
+avg_queueing_latency = 4975.552732
+average_latency = 4998.052662
+average_hops = 2.249971
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.25 ======
+packets_injected = 63995
+packets_received = 63925
+packets_received_ratio = 0.998906
+avg_network_latency = 22.499930
+avg_queueing_latency = 5980.148268
+average_latency = 6002.648197
+average_hops = 2.249985
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.30 ======
+packets_injected = 63997
+packets_received = 63930
+packets_received_ratio = 0.998953
+avg_network_latency = 22.499984
+avg_queueing_latency = 6654.867261
+average_latency = 6677.367245
+average_hops = 2.249996
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.40 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7478.615938
+average_latency = 7501.115946
+average_hops = 2.249994
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.50 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 7975.337796
+average_latency = 7997.837804
+average_hops = 2.249997
+throughput = NaN
+
+====== VC1_tornado_PAR3D_rate0.60 ======
+packets_injected = 63999
+packets_received = 63935
+packets_received_ratio = 0.999000
+avg_network_latency = 22.500008
+avg_queueing_latency = 8312.383640
+average_latency = 8334.883647
+average_hops = 2.249997
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6296
+packets_received_ratio = 0.998573
+avg_network_latency = 29.229193
+avg_queueing_latency = 3.454574
+average_latency = 32.683767
+average_hops = 3.767496
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.02 ======
+packets_injected = 12707
+packets_received = 12675
+packets_received_ratio = 0.997482
+avg_network_latency = 39.735542
+avg_queueing_latency = 16.952268
+average_latency = 56.687811
+average_hops = 3.757028
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.04 ======
+packets_injected = 18637
+packets_received = 18581
+packets_received_ratio = 0.996995
+avg_network_latency = 64.389322
+avg_queueing_latency = 1673.817125
+average_latency = 1738.206447
+average_hops = 3.285069
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.07 ======
+packets_injected = 22047
+packets_received = 21978
+packets_received_ratio = 0.996870
+avg_network_latency = 59.690554
+avg_queueing_latency = 3427.344526
+average_latency = 3487.035081
+average_hops = 2.881589
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.10 ======
+packets_injected = 24402
+packets_received = 24333
+packets_received_ratio = 0.997172
+avg_network_latency = 55.768668
+avg_queueing_latency = 4259.212263
+average_latency = 4314.980931
+average_hops = 2.611409
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.15 ======
+packets_injected = 24975
+packets_received = 24906
+packets_received_ratio = 0.997237
+avg_network_latency = 54.563358
+avg_queueing_latency = 6088.240183
+average_latency = 6142.803541
+average_hops = 2.617069
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.20 ======
+packets_injected = 24772
+packets_received = 24701
+packets_received_ratio = 0.997134
+avg_network_latency = 55.156188
+avg_queueing_latency = 7053.137039
+average_latency = 7108.293227
+average_hops = 2.604344
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.25 ======
+packets_injected = 24771
+packets_received = 24702
+packets_received_ratio = 0.997214
+avg_network_latency = 55.162780
+avg_queueing_latency = 7641.865436
+average_latency = 7697.028216
+average_hops = 2.604217
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.30 ======
+packets_injected = 24602
+packets_received = 24533
+packets_received_ratio = 0.997195
+avg_network_latency = 55.367872
+avg_queueing_latency = 8037.977092
+average_latency = 8093.344964
+average_hops = 2.593739
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.40 ======
+packets_injected = 24603
+packets_received = 24535
+packets_received_ratio = 0.997236
+avg_network_latency = 55.372977
+avg_queueing_latency = 8509.978398
+average_latency = 8565.351376
+average_hops = 2.593738
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.50 ======
+packets_injected = 24770
+packets_received = 24701
+packets_received_ratio = 0.997214
+avg_network_latency = 55.092506
+avg_queueing_latency = 8787.860289
+average_latency = 8842.952795
+average_hops = 2.603160
+throughput = NaN
+
+====== VC1_transpose_DOR3D_rate0.60 ======
+packets_injected = 24959
+packets_received = 24891
+packets_received_ratio = 0.997276
+avg_network_latency = 54.655739
+avg_queueing_latency = 8982.954883
+average_latency = 9037.610622
+average_hops = 2.614370
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.01 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.02 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.04 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.07 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.15 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.20 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.25 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.30 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.40 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.50 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_NEW3D_rate0.60 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6297
+packets_received_ratio = 0.998731
+avg_network_latency = 28.022550
+avg_queueing_latency = 3.282198
+average_latency = 31.304748
+average_hops = 3.767606
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.02 ======
+packets_injected = 12714
+packets_received = 12687
+packets_received_ratio = 0.997876
+avg_network_latency = 33.340427
+avg_queueing_latency = 8.590368
+average_latency = 41.930795
+average_hops = 3.758603
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.04 ======
+packets_injected = 20798
+packets_received = 20741
+packets_received_ratio = 0.997259
+avg_network_latency = 54.243817
+avg_queueing_latency = 1345.181814
+average_latency = 1399.425630
+average_hops = 3.484131
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.07 ======
+packets_injected = 25487
+packets_received = 25420
+packets_received_ratio = 0.997371
+avg_network_latency = 52.048938
+avg_queueing_latency = 2793.814555
+average_latency = 2845.863493
+average_hops = 3.042452
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.10 ======
+packets_injected = 28360
+packets_received = 28289
+packets_received_ratio = 0.997496
+avg_network_latency = 49.024426
+avg_queueing_latency = 3650.754852
+average_latency = 3699.779278
+average_hops = 2.755667
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.15 ======
+packets_injected = 28495
+packets_received = 28429
+packets_received_ratio = 0.997684
+avg_network_latency = 48.969222
+avg_queueing_latency = 5707.738014
+average_latency = 5756.707236
+average_hops = 2.738955
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.20 ======
+packets_injected = 28674
+packets_received = 28599
+packets_received_ratio = 0.997384
+avg_network_latency = 48.578727
+avg_queueing_latency = 6772.392636
+average_latency = 6820.971363
+average_hops = 2.750865
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.25 ======
+packets_injected = 28674
+packets_received = 28604
+packets_received_ratio = 0.997559
+avg_network_latency = 48.589848
+avg_queueing_latency = 7425.085932
+average_latency = 7473.675780
+average_hops = 2.756533
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.30 ======
+packets_injected = 28619
+packets_received = 28550
+packets_received_ratio = 0.997589
+avg_network_latency = 48.657548
+avg_queueing_latency = 7860.020140
+average_latency = 7908.677688
+average_hops = 2.743872
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.40 ======
+packets_injected = 28647
+packets_received = 28578
+packets_received_ratio = 0.997591
+avg_network_latency = 48.657254
+avg_queueing_latency = 8368.856253
+average_latency = 8417.513507
+average_hops = 2.744935
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.50 ======
+packets_injected = 28616
+packets_received = 28544
+packets_received_ratio = 0.997484
+avg_network_latency = 48.675238
+avg_queueing_latency = 8685.174783
+average_latency = 8733.850021
+average_hops = 2.744097
+throughput = NaN
+
+====== VC1_transpose_OPAR3D_rate0.60 ======
+packets_injected = 28581
+packets_received = 28511
+packets_received_ratio = 0.997551
+avg_network_latency = 48.817334
+avg_queueing_latency = 8893.212830
+average_latency = 8942.030164
+average_hops = 2.741356
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.01 ======
+packets_injected = 6305
+packets_received = 6297
+packets_received_ratio = 0.998731
+avg_network_latency = 27.441162
+avg_queueing_latency = 3.181674
+average_latency = 30.622836
+average_hops = 3.767606
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.02 ======
+packets_injected = 12714
+packets_received = 12690
+packets_received_ratio = 0.998112
+avg_network_latency = 31.256422
+avg_queueing_latency = 6.917336
+average_latency = 38.173759
+average_hops = 3.758729
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.04 ======
+packets_injected = 22333
+packets_received = 22274
+packets_received_ratio = 0.997358
+avg_network_latency = 49.492188
+avg_queueing_latency = 900.621038
+average_latency = 950.113226
+average_hops = 3.530441
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.07 ======
+packets_injected = 27613
+packets_received = 27547
+packets_received_ratio = 0.997610
+avg_network_latency = 48.452899
+avg_queueing_latency = 2660.710785
+average_latency = 2709.163684
+average_hops = 3.135519
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.10 ======
+packets_injected = 31032
+packets_received = 30963
+packets_received_ratio = 0.997776
+avg_network_latency = 45.228143
+avg_queueing_latency = 3599.794594
+average_latency = 3645.022737
+average_hops = 2.890442
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.15 ======
+packets_injected = 31275
+packets_received = 31209
+packets_received_ratio = 0.997890
+avg_network_latency = 45.019001
+avg_queueing_latency = 5656.494921
+average_latency = 5701.513922
+average_hops = 2.875535
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.20 ======
+packets_injected = 31269
+packets_received = 31193
+packets_received_ratio = 0.997569
+avg_network_latency = 45.055557
+avg_queueing_latency = 6729.134165
+average_latency = 6774.189722
+average_hops = 2.876201
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.25 ======
+packets_injected = 31184
+packets_received = 31117
+packets_received_ratio = 0.997851
+avg_network_latency = 45.167208
+avg_queueing_latency = 7415.733072
+average_latency = 7460.900280
+average_hops = 2.875235
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.30 ======
+packets_injected = 31210
+packets_received = 31138
+packets_received_ratio = 0.997693
+avg_network_latency = 45.119950
+avg_queueing_latency = 7847.615133
+average_latency = 7892.735083
+average_hops = 2.875496
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.40 ======
+packets_injected = 31230
+packets_received = 31160
+packets_received_ratio = 0.997759
+avg_network_latency = 45.100866
+avg_queueing_latency = 8349.809884
+average_latency = 8394.910751
+average_hops = 2.876787
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.50 ======
+packets_injected = 31177
+packets_received = 31106
+packets_received_ratio = 0.997723
+avg_network_latency = 45.185688
+avg_queueing_latency = 8679.374590
+average_latency = 8724.560278
+average_hops = 2.876906
+throughput = NaN
+
+====== VC1_transpose_PAR3D_rate0.60 ======
+packets_injected = 31212
+packets_received = 31139
+packets_received_ratio = 0.997661
+avg_network_latency = 45.160859
+avg_queueing_latency = 8894.826873
+average_latency = 8939.987732
+average_hops = 2.878959
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 27.290507
+avg_queueing_latency = 3.201463
+average_latency = 30.491970
+average_hops = 3.745210
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.02 ======
+packets_injected = 12691
+packets_received = 12677
+packets_received_ratio = 0.998897
+avg_network_latency = 30.153664
+avg_queueing_latency = 5.937446
+average_latency = 36.091110
+average_hops = 3.767866
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.04 ======
+packets_injected = 25343
+packets_received = 25294
+packets_received_ratio = 0.998067
+avg_network_latency = 43.748399
+avg_queueing_latency = 76.593659
+average_latency = 120.342057
+average_hops = 3.743837
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.07 ======
+packets_injected = 28845
+packets_received = 28762
+packets_received_ratio = 0.997123
+avg_network_latency = 52.317711
+avg_queueing_latency = 3456.323239
+average_latency = 3508.640950
+average_hops = 3.735216
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.10 ======
+packets_injected = 28612
+packets_received = 28532
+packets_received_ratio = 0.997204
+avg_network_latency = 52.854689
+avg_queueing_latency = 5461.620321
+average_latency = 5514.475011
+average_hops = 3.749873
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.15 ======
+packets_injected = 28828
+packets_received = 28751
+packets_received_ratio = 0.997329
+avg_network_latency = 52.413307
+avg_queueing_latency = 6916.741157
+average_latency = 6969.154464
+average_hops = 3.735254
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.20 ======
+packets_injected = 28798
+packets_received = 28725
+packets_received_ratio = 0.997465
+avg_network_latency = 52.511297
+avg_queueing_latency = 7632.703777
+average_latency = 7685.215074
+average_hops = 3.740864
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.25 ======
+packets_injected = 28749
+packets_received = 28675
+packets_received_ratio = 0.997426
+avg_network_latency = 52.609660
+avg_queueing_latency = 8107.292066
+average_latency = 8159.901726
+average_hops = 3.733655
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.30 ======
+packets_injected = 28565
+packets_received = 28484
+packets_received_ratio = 0.997164
+avg_network_latency = 52.858728
+avg_queueing_latency = 8477.906193
+average_latency = 8530.764921
+average_hops = 3.723847
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.40 ======
+packets_injected = 28750
+packets_received = 28675
+packets_received_ratio = 0.997391
+avg_network_latency = 52.554734
+avg_queueing_latency = 8841.160105
+average_latency = 8893.714839
+average_hops = 3.736730
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.50 ======
+packets_injected = 28714
+packets_received = 28637
+packets_received_ratio = 0.997318
+avg_network_latency = 52.660230
+avg_queueing_latency = 9025.007089
+average_latency = 9077.667319
+average_hops = 3.741220
+throughput = NaN
+
+====== VC1_uniform_random_DOR3D_rate0.60 ======
+packets_injected = 28709
+packets_received = 28632
+packets_received_ratio = 0.997318
+avg_network_latency = 52.613125
+avg_queueing_latency = 9191.205434
+average_latency = 9243.818560
+average_hops = 3.725448
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.01 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.02 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.04 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.07 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.10 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.15 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.20 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.25 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.30 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.40 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.50 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_NEW3D_rate0.60 ======
+packets_injected = NaN
+packets_received = NaN
+packets_received_ratio = NaN
+avg_network_latency = NaN
+avg_queueing_latency = NaN
+average_latency = NaN
+average_hops = NaN
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 27.552234
+avg_queueing_latency = 3.183495
+average_latency = 30.735729
+average_hops = 3.745210
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.02 ======
+packets_injected = 12690
+packets_received = 12674
+packets_received_ratio = 0.998739
+avg_network_latency = 31.293278
+avg_queueing_latency = 6.360739
+average_latency = 37.654016
+average_hops = 3.768081
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.04 ======
+packets_injected = 759
+packets_received = 693
+packets_received_ratio = 0.913043
+avg_network_latency = 46.092352
+avg_queueing_latency = 38.083694
+average_latency = 84.176046
+average_hops = 3.806638
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.07 ======
+packets_injected = 529
+packets_received = 458
+packets_received_ratio = 0.865784
+avg_network_latency = 45.355895
+avg_queueing_latency = 52.563319
+average_latency = 97.919214
+average_hops = 3.674672
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.10 ======
+packets_injected = 658
+packets_received = 591
+packets_received_ratio = 0.898176
+avg_network_latency = 53.204738
+avg_queueing_latency = 132.059222
+average_latency = 185.263959
+average_hops = 3.675127
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.15 ======
+packets_injected = 463
+packets_received = 394
+packets_received_ratio = 0.850972
+avg_network_latency = 44.578680
+avg_queueing_latency = 78.121827
+average_latency = 122.700508
+average_hops = 3.535533
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.20 ======
+packets_injected = 714
+packets_received = 638
+packets_received_ratio = 0.893557
+avg_network_latency = 55.509404
+avg_queueing_latency = 175.503135
+average_latency = 231.012539
+average_hops = 3.799373
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.25 ======
+packets_injected = 474
+packets_received = 405
+packets_received_ratio = 0.854430
+avg_network_latency = 47.246914
+avg_queueing_latency = 120.113580
+average_latency = 167.360494
+average_hops = 3.646914
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.30 ======
+packets_injected = 963
+packets_received = 895
+packets_received_ratio = 0.929387
+avg_network_latency = 58.451397
+avg_queueing_latency = 273.525140
+average_latency = 331.976536
+average_hops = 3.745251
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.40 ======
+packets_injected = 377
+packets_received = 310
+packets_received_ratio = 0.822281
+avg_network_latency = 42.838710
+avg_queueing_latency = 87.061290
+average_latency = 129.900000
+average_hops = 3.687097
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.50 ======
+packets_injected = 535
+packets_received = 468
+packets_received_ratio = 0.874766
+avg_network_latency = 52.673077
+avg_queueing_latency = 176.673077
+average_latency = 229.346154
+average_hops = 3.867521
+throughput = NaN
+
+====== VC1_uniform_random_OPAR3D_rate0.60 ======
+packets_injected = 894
+packets_received = 825
+packets_received_ratio = 0.922819
+avg_network_latency = 57.896970
+avg_queueing_latency = 285.715152
+average_latency = 343.612121
+average_hops = 3.619394
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.01 ======
+packets_injected = 6295
+packets_received = 6289
+packets_received_ratio = 0.999047
+avg_network_latency = 26.952775
+avg_queueing_latency = 3.118143
+average_latency = 30.070917
+average_hops = 3.745210
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.02 ======
+packets_injected = 12690
+packets_received = 12676
+packets_received_ratio = 0.998897
+avg_network_latency = 29.476807
+avg_queueing_latency = 5.444383
+average_latency = 34.921190
+average_hops = 3.768065
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.04 ======
+packets_injected = 6285
+packets_received = 6216
+packets_received_ratio = 0.989021
+avg_network_latency = 44.443855
+avg_queueing_latency = 64.432593
+average_latency = 108.876448
+average_hops = 3.801641
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.07 ======
+packets_injected = 2265
+packets_received = 2197
+packets_received_ratio = 0.969978
+avg_network_latency = 51.656350
+avg_queueing_latency = 261.144288
+average_latency = 312.800637
+average_hops = 3.714156
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.10 ======
+packets_injected = 587
+packets_received = 518
+packets_received_ratio = 0.882453
+avg_network_latency = 41.243243
+avg_queueing_latency = 74.156371
+average_latency = 115.399614
+average_hops = 3.714286
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.15 ======
+packets_injected = 1065
+packets_received = 997
+packets_received_ratio = 0.936150
+avg_network_latency = 50.956871
+avg_queueing_latency = 223.571715
+average_latency = 274.528586
+average_hops = 3.616851
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.20 ======
+packets_injected = 1547
+packets_received = 1478
+packets_received_ratio = 0.955398
+avg_network_latency = 55.112314
+avg_queueing_latency = 404.460758
+average_latency = 459.573072
+average_hops = 3.817997
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.25 ======
+packets_injected = 1996
+packets_received = 1928
+packets_received_ratio = 0.965932
+avg_network_latency = 49.650415
+avg_queueing_latency = 550.818983
+average_latency = 600.469398
+average_hops = 3.688797
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.30 ======
+packets_injected = 3775
+packets_received = 3705
+packets_received_ratio = 0.981457
+avg_network_latency = 54.360324
+avg_queueing_latency = 1086.798381
+average_latency = 1141.158704
+average_hops = 3.719028
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.40 ======
+packets_injected = 743
+packets_received = 669
+packets_received_ratio = 0.900404
+avg_network_latency = 48.234679
+avg_queueing_latency = 191.989537
+average_latency = 240.224215
+average_hops = 3.816143
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.50 ======
+packets_injected = 1186
+packets_received = 1118
+packets_received_ratio = 0.942664
+avg_network_latency = 50.095707
+avg_queueing_latency = 337.654741
+average_latency = 387.750447
+average_hops = 3.785331
+throughput = NaN
+
+====== VC1_uniform_random_PAR3D_rate0.60 ======
+packets_injected = 755
+packets_received = 685
+packets_received_ratio = 0.907285
+avg_network_latency = 44.013139
+avg_queueing_latency = 196.881752
+average_latency = 240.894891
+average_hops = 3.672993
+throughput = NaN

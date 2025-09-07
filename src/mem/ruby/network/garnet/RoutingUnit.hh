@@ -78,6 +78,26 @@ class RoutingUnit
                              int inport,
                              PortDirection inport_dirn);
 
+    int outportComputeRing(RouteInfo route,
+                           int inport,
+                           PortDirection inport_dirn);
+
+    int outportCompute3DDOR(RouteInfo route,
+                            int inport,
+                            PortDirection inport_dirn);
+
+    int outportCompute3DOPAR(RouteInfo route,
+                             int inport,
+                             PortDirection inport_dirn);
+
+    int outportCompute3DPAR(RouteInfo route,
+                             int inport,
+                             PortDirection inport_dirn);
+
+    int outportCompute3Dnew(RouteInfo route,
+                            int inport,
+                            PortDirection inport_dirn);
+
     // Returns true if vnet is present in the vector
     // of vnets or if the vector supports all vnets.
     bool supportsVnet(int vnet, std::vector<int> sVnets);
@@ -95,6 +115,10 @@ class RoutingUnit
     std::map<int, PortDirection> m_inports_idx2dirn;
     std::map<int, PortDirection> m_outports_idx2dirn;
     std::map<PortDirection, int> m_outports_dirn2idx;
+
+    // Adaptive routing support
+    int chooseAdaptiveOutport(
+        const std::vector<PortDirection>& candidates);
 };
 
 } // namespace garnet

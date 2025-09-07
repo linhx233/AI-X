@@ -54,7 +54,9 @@ OutVcState::OutVcState(int id, GarnetNetwork *network_ptr,
      */
     int vnet = floor(id/consumerVcs);
 
-    if (network_ptr->get_vnet_type(vnet) == DATA_VNET_)
+    if (network_ptr->isWormholeEnabled())
+        m_max_credit_count = network_ptr->getBuffersPerVC();
+    else if (network_ptr->get_vnet_type(vnet) == DATA_VNET_)
         m_max_credit_count = network_ptr->getBuffersPerDataVC();
     else
         m_max_credit_count = network_ptr->getBuffersPerCtrlVC();

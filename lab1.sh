@@ -8,7 +8,7 @@ configs/example/garnet_synth_traffic.py \
 --network=garnet --num-cpus=$NUM_CPUS --num-dirs=64 \
 --topology=Mesh_XY --mesh-rows=8 \
 --inj-vnet=0 --synthetic=uniform_random \
---sim-cycles=$SIM_CYCLES --injectionrate=0.01 
+--sim-cycles=$SIM_CYCLES --injectionrate=0.01
 
 echo > network_stats.txt
 grep "packets_injected::total" m5out/stats.txt | sed 's/system.ruby.network.packets_injected::total\s*/packets_injected = /' >> network_stats.txt

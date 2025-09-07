@@ -121,6 +121,28 @@ OutputUnit::select_free_vc(int vnet)
     return -1;
 }
 
+int
+OutputUnit::countFreeVCs()
+{
+    int free_count = 0;
+    for (auto& vc : outVcState) {
+        if (vc.isInState(IDLE_, curTick())) {
+            free_count++;
+        }
+    }
+    return free_count;
+}
+
+int
+OutputUnit::totalCredits()
+{
+    int sum = 0;
+    for (auto& vc : outVcState) {
+        sum += vc.get_credit_count();
+    }
+    return sum;
+}
+
 /*
  * The wakeup function of the OutputUnit reads the credit signal from the
  * downstream router for the output VC (i.e., input VC at downstream router).
