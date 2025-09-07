@@ -53,8 +53,8 @@ class RoutingUnit
 {
   public:
     RoutingUnit(Router *router);
-    int outportCompute(RouteInfo route,
-                      int inport,
+    std::pair<int,int> outportCompute(RouteInfo route,
+                      int inport, int invc,
                       PortDirection inport_dirn);
 
     // Topology-agnostic Routing Table based routing (default)
@@ -62,39 +62,39 @@ class RoutingUnit
     void addWeight(int link_weight);
 
     // get output port from routing table
-    int  lookupRoutingTable(int vnet, NetDest net_dest);
+    std::pair<int,int>  lookupRoutingTable(int vnet, NetDest net_dest);
 
     // Topology-specific direction based routing
     void addInDirection(PortDirection inport_dirn, int inport);
     void addOutDirection(PortDirection outport_dirn, int outport);
 
     // Routing for Mesh
-    int outportComputeXY(RouteInfo route,
+    std::pair<int,int> outportComputeXY(RouteInfo route,
                          int inport,
                          PortDirection inport_dirn);
 
     // Custom Routing Algorithm using Port Directions
-    int outportComputeCustom(RouteInfo route,
+    std::pair<int,int> outportComputeCustom(RouteInfo route,
                              int inport,
                              PortDirection inport_dirn);
 
-    int outportComputeRing(RouteInfo route,
-                           int inport,
-                           PortDirection inport_dirn);
+    std::pair<int,int> outportComputeRing(RouteInfo route,
+                                          int inport, int invc,
+                                          PortDirection inport_dirn);
 
-    int outportCompute3DDOR(RouteInfo route,
+    std::pair<int,int> outportCompute3DDOR(RouteInfo route,
                             int inport,
                             PortDirection inport_dirn);
 
-    int outportCompute3DOPAR(RouteInfo route,
+    std::pair<int,int> outportCompute3DOPAR(RouteInfo route,
                              int inport,
                              PortDirection inport_dirn);
 
-    int outportCompute3DPAR(RouteInfo route,
+    std::pair<int,int> outportCompute3DPAR(RouteInfo route,
                              int inport,
                              PortDirection inport_dirn);
 
-    int outportCompute3Dnew(RouteInfo route,
+    std::pair<int,int> outportCompute3Dnew(RouteInfo route,
                             int inport,
                             PortDirection inport_dirn);
 

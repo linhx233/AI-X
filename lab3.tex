@@ -1,3 +1,44 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm,graphicx,setspace,fullpage,verbatim,listings,xcolor}
+
+\onehalfspace 
+
+\title{\bf\huge AI+X: Report 3}
+\author{Hanxi Lin}
+
+\lstset{
+	backgroundcolor=\color{gray!10},   % 背景色
+	basicstyle=\ttfamily\footnotesize, % 基本字体样式
+	breaklines=true,                  % 自动换行
+	frame=noframe,                     % 边框样式
+	numbers=left,                     % 行号位置
+	numberstyle=\tiny\color{gray},    % 行号样式
+	keywordstyle=\color{blue},        % 关键字样式
+	commentstyle=\color{green!50!black}, % 注释样式
+	stringstyle=\color{orange},       % 字符串样式
+	showstringspaces=false            % 不显示字符串中的空格
+}
+
+\begin{document}
+\maketitle
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.49\textwidth]{lab3-SYNTHETIC_TRAFFIC.png}
+    \includegraphics[width=0.49\textwidth]{lab3-VC_TYPE.png}
+    \caption{Average packet latency vs. injection rate}
+\end{figure}
+
+\section*{Task 1}
+We've implemented a simple minimal routing algorithm for a ring topology (which is not deadlock-free). As shown in figure, structured synthetic traffics such as tornado are more likely to cause deadlocks, hence lower congestion points.
+
+\section*{Task 2}
+As shown in figure, using wormhole far improves the performance of a single virtual channel. However, wormhole doesn't perform as well as the same capacity of virtual channels. This is because wormhole requires all flits in a packet to be sent in order, which may cause blocking if the head flit is blocked. On the other hand, virtual channels can send flits from different packets in an interleaved manner, which improves the overall throughput.
+
+An interesting observation: wormhole performs as well as 4 virtual channels.
+
+\section*{Appendix}
+\begin{lstlisting}[language=bash]
 #! /bin/bash
 
 NUM_CPUS=16
@@ -96,3 +137,7 @@ for INJ_RATE in 0.02 0.04 0.06 0.08 0.10 0.12 0.14 0.16 0.20 0.24 0.28 0.32 0.40
 	echo >> network_stats.txt
 
 python3 plot.py
+\end{lstlisting}
+
+
+\end{document}

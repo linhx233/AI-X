@@ -94,7 +94,7 @@ RoutingUnit::supportsVnet(int vnet, std::vector<int> sVnets)
  * Routes can be biased via weight assignments in the topology file.
  * Correct weight assignments are critical to provide deadlock avoidance.
  */
-int
+std::pair<int,int>
 RoutingUnit::lookupRoutingTable(int vnet, NetDest msg_destination)
 {
     // First find all possible output link candidates
@@ -142,7 +142,7 @@ RoutingUnit::lookupRoutingTable(int vnet, NetDest msg_destination)
         candidate = rand() % num_candidates;
 
     output_link = output_link_candidates.at(candidate);
-    return output_link;
+    return std::make_pair(output_link,-1);
 }
 
 
@@ -194,19 +194,18 @@ RoutingUnit::chooseAdaptiveOutport(
 // implementations using port directions rather than a static routing
 // table is provided here.
 
-int
-RoutingUnit::outportCompute(RouteInfo route, int inport,
+std::pair<int,int>
+RoutingUnit::outportCompute(RouteInfo route, int inport, int invc,
                             PortDirection inport_dirn)
 {
-    int outport = -1;
+    std::pair<int,int> outport_outvc = std::make_pair(-1,-1);
 
     if (route.dest_router == m_router->get_id()) {
 
         // Multiple NIs may be connected to this router,
         // all with output port direction = "Local"
         // Get exact outport id from table
-        outport = lookupRoutingTable(route.vnet, route.net_dest);
-        return outport;
+        return lookupRoutingTable(route.vnet, route.net_dest);
     }
 
     // Routing Algorithm set in GarnetNetwork.py
@@ -215,35 +214,38 @@ RoutingUnit::outportCompute(RouteInfo route, int inport,
         (RoutingAlgorithm) m_router->get_net_ptr()->getRoutingAlgorithm();
 
     switch (routing_algorithm) {
-        case TABLE_:  outport =
+        case TABLE_:  outport_outvc =
             lookupRoutingTable(route.vnet, route.net_dest); break;
-        case XY_:     outport =
+        case XY_:     outport_outvc =
             outportComputeXY(route, inport, inport_dirn); break;
         // any custom algorithm
-        case CUSTOM_: outport =
+        case CUSTOM_: outport_outvc =
             outportComputeCustom(route, inport, inport_dirn); break;
-        case RING_:   outport =
-            outportComputeRing(route, inport, inport_dirn); break;
-        case _3DDOR_: outport =
+        case RING_:   outport_outvc =
+            outportComputeRing(route, inport, invc, inport_dirn); break;
+        case _3DDOR_: outport_outvc =
             outportCompute3DDOR(route, inport, inport_dirn); break;
-        case _3DOPAR_: outport =
+        case _3DOPAR_: outport_outvc =
             outportCompute3DOPAR(route, inport, inport_dirn); break;
-        case _3DPAR_: outport =
+        case _3DPAR_: outport_outvc =
             outportCompute3DPAR(route, inport, inport_dirn); break;
-        case _3DNEW_: outport =
+        case _3DNEW_: outport_outvc =
             outportCompute3Dnew(route, inport, inport_dirn); break;
-        default: outport =
+        default: outport_outvc =
             lookupRoutingTable(route.vnet, route.net_dest); break;
     }
 
-    assert(outport != -1);
-    return outport;
+    int outport = outport_outvc.first;
+    int outvc = outport_outvc.second;
+    
+    assert(outport != -1 && outvc != -1);
+    return outport_outvc;
 }
 
 // XY routing implemented using port directions
 // Only for reference purpose in a Mesh
 // By default Garnet uses the routing table
-int
+std::pair<int,int>
 RoutingUnit::outportComputeXY(RouteInfo route,
                               int inport,
                               PortDirection inport_dirn)
@@ -296,12 +298,12 @@ RoutingUnit::outportComputeXY(RouteInfo route,
         panic("x_hops == y_hops == 0");
     }
 
-    return m_outports_dirn2idx[outport_dirn];
+    return std::make_pair(m_outports_dirn2idx[outport_dirn], -1);
 }
 
 // Template for implementing custom routing algorithm
 // using port directions. (Example adaptive)
-int
+std::pair<int,int>
 RoutingUnit::outportComputeCustom(RouteInfo route,
                                  int inport,
                                  PortDirection inport_dirn)
@@ -309,9 +311,9 @@ RoutingUnit::outportComputeCustom(RouteInfo route,
     panic("%s placeholder executed", __FUNCTION__);
 }
 
-int
+std::pair<int,int>
 RoutingUnit::outportComputeRing(RouteInfo route,
-                               int inport,
+                               int inport, int invc,
                                PortDirection inport_dirn)
 {
     PortDirection outport_dirn = "Unknown";
@@ -326,10 +328,21 @@ RoutingUnit::outportComputeRing(RouteInfo route,
     int dist_ccw = (my_id - dest_id + num_routers) % num_routers;
 
     outport_dirn = (dist_cw <= dist_ccw) ? "Clockwise" : "Counterclockwise";
-    return m_outports_dirn2idx[outport_dirn];
+
+    int outvc = invc; // keep the same vc
+    assert(outvc != -1);
+    if (outport_dirn == "Clockwise" 
+        && my_id == num_routers - 1) {
+        outvc = 1; 
+    }
+    if (outport_dirn == "Counterclockwise" 
+        && my_id == 0) {
+        outvc = 1; 
+    }
+    return std::make_pair(m_outports_dirn2idx[outport_dirn], outvc);
 }
 
-int
+std::pair<int,int>
 RoutingUnit::outportCompute3DDOR(RouteInfo route,
                                  int inport,
                                  PortDirection inport_dirn)
@@ -365,10 +378,10 @@ RoutingUnit::outportCompute3DDOR(RouteInfo route,
         outport_dirn = (z_hops > 0) ? "Up" : "Down";
     }
 
-    return m_outports_dirn2idx[outport_dirn];
+    return std::make_pair(m_outports_dirn2idx[outport_dirn],-1);
 }
 
-int
+std::pair<int,int>
 RoutingUnit::outportCompute3DOPAR(RouteInfo route,
                                   int inport,
                                   PortDirection inport_dirn)
@@ -394,7 +407,7 @@ RoutingUnit::outportCompute3DOPAR(RouteInfo route,
 
     // ---- Z 优先 ----
     if (dz != 0) {
-        return m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"];
+        return std::make_pair(m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"], -1);
     }
 
     // ---- XY 平面 (Odd-Even) ----
@@ -414,10 +427,10 @@ RoutingUnit::outportCompute3DOPAR(RouteInfo route,
         candidates.push_back((dy > 0) ? "North" : "South");
     }
 
-    return chooseAdaptiveOutport(candidates);
+    return std::make_pair(chooseAdaptiveOutport(candidates),-1);
 }
 
-int
+std::pair<int,int>
 RoutingUnit::outportCompute3DPAR(RouteInfo route,
                                  int inport,
                                  PortDirection inport_dirn)
@@ -443,7 +456,7 @@ RoutingUnit::outportCompute3DPAR(RouteInfo route,
 
     // ---- Z 优先 ----
     if (dz != 0) {
-        return m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"];
+        return std::make_pair(m_outports_dirn2idx[(dz > 0) ? "Up" : "Down"], -1);
     }
 
     // ---- XY 平面 ----
@@ -451,15 +464,15 @@ RoutingUnit::outportCompute3DPAR(RouteInfo route,
         std::vector<PortDirection> candidates;
         candidates.push_back((dx > 0) ? "East" : "West");
         candidates.push_back((dy > 0) ? "North" : "South");
-        return chooseAdaptiveOutport(candidates);
+        return std::make_pair(chooseAdaptiveOutport(candidates), -1);
     } else if (dx != 0) {
-        return m_outports_dirn2idx[(dx > 0) ? "East" : "West"];
+        return std::make_pair(m_outports_dirn2idx[(dx > 0) ? "East" : "West"], -1);
     } else {
-        return m_outports_dirn2idx[(dy > 0) ? "North" : "South"];
+        return std::make_pair(m_outports_dirn2idx[(dy > 0) ? "North" : "South"], -1);
     }
 }
 
-int
+std::pair<int,int>
 RoutingUnit::outportCompute3Dnew(RouteInfo route,
                                   int inport,
                                   PortDirection inport_dirn)
@@ -486,23 +499,7 @@ RoutingUnit::outportCompute3Dnew(RouteInfo route,
 
     assert(!(dx == 0 && dy == 0 && dz == 0));
 
-    if (dx != 0) {
-        if ((my_x % 2 == 0) || (dx < 0)) {
-            outport_dirn = (dx > 0) ? "East" : "West";
-            return m_outports_dirn2idx[outport_dirn];
-        }
-    }
-    if (dy != 0) {
-        if ((my_y % 2 == 1) || (dy < 0)) {
-            outport_dirn = (dy > 0) ? "North" : "South";
-            return m_outports_dirn2idx[outport_dirn];
-        }
-    }
-    if (dz != 0) {
-        outport_dirn = (dz > 0) ? "Up" : "Down";
-    }
-
-    return m_outports_dirn2idx[outport_dirn];
+    return std::make_pair(-1,-1);
 }
 
 } // namespace garnet

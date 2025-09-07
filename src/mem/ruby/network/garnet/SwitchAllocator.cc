@@ -36,6 +36,7 @@
 #include "mem/ruby/network/garnet/InputUnit.hh"
 #include "mem/ruby/network/garnet/OutputUnit.hh"
 #include "mem/ruby/network/garnet/Router.hh"
+#include<iostream> 
 
 namespace gem5
 {
@@ -113,7 +114,7 @@ SwitchAllocator::arbitrate_inports()
     // Select a VC from each input in a round robin manner
     // Independent arbiter at each input port
     for (int inport = 0; inport < m_num_inports; inport++) {
-        int invc = m_round_robin_invc[inport];
+        int invc = 0;//m_round_robin_invc[inport];
 
         for (int invc_iter = 0; invc_iter < m_num_vcs; invc_iter++) {
             auto input_unit = m_router->getInputUnit(inport);
@@ -123,6 +124,14 @@ SwitchAllocator::arbitrate_inports()
 
                 int outport = input_unit->get_outport(invc);
                 int outvc = input_unit->get_outvc(invc);
+
+                if (outvc != -1){
+                    auto output_unit = m_router->getOutputUnit(outport);
+                    if (output_unit->is_vc_idle(outvc, curTick())) {
+                        output_unit->set_vc_state(ACTIVE_, outvc, curTick());
+                    }
+                }
+
 
                 // check if the flit in this InputVC is allowed to be sent
                 // send_allowed conditions described in that function.
@@ -180,6 +189,8 @@ SwitchAllocator::arbitrate_outports()
                 int invc = m_vc_winners[inport];
 
                 int outvc = input_unit->get_outvc(invc);
+                
+                // assert(outvc != -1);
                 if (outvc == -1) {
                     // VC Allocation - select any free VC from outport
                     outvc = vc_allocate(outport, inport, invc);

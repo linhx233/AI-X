@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.3)  7 SEP 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.3)  7 SEP 2025 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/kratrissa/gem5/lab2.tex
-(/home/kratrissa/gem5/lab2.tex
+**/home/kratrissa/gem5/lab3.tex
+(/home/kratrissa/gem5/lab3.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -177,8 +177,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box55
-) (./lab2.aux)
-\openout1 = `lab2.aux'.
+) (./lab3.aux)
+\openout1 = `lab3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -222,37 +222,27 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<lab2-SYNTHETIC_TRAFFIC.png, id=1, 462.528pt x 346.896pt>
-File: lab2-SYNTHETIC_TRAFFIC.png Graphic file (type png)
-<use lab2-SYNTHETIC_TRAFFIC.png>
-Package pdftex.def Info: lab2-SYNTHETIC_TRAFFIC.png  used on input line 27.
+<lab3-SYNTHETIC_TRAFFIC.png, id=1, 462.528pt x 346.896pt>
+File: lab3-SYNTHETIC_TRAFFIC.png Graphic file (type png)
+<use lab3-SYNTHETIC_TRAFFIC.png>
+Package pdftex.def Info: lab3-SYNTHETIC_TRAFFIC.png  used on input line 27.
 (pdftex.def)             Requested size: 230.18253pt x 172.63771pt.
-<lab2-VCS_PER_VNET.png, id=3, 462.528pt x 346.896pt>
-File: lab2-VCS_PER_VNET.png Graphic file (type png)
-<use lab2-VCS_PER_VNET.png>
-Package pdftex.def Info: lab2-VCS_PER_VNET.png  used on input line 28.
+<lab3-VC_TYPE.png, id=3, 462.528pt x 346.896pt>
+File: lab3-VC_TYPE.png Graphic file (type png)
+<use lab3-VC_TYPE.png>
+Package pdftex.def Info: lab3-VC_TYPE.png  used on input line 28.
 (pdftex.def)             Requested size: 230.18253pt x 172.63771pt.
-<lab2-ROUTER_LATENCY.png, id=4, 462.528pt x 346.896pt>
-File: lab2-ROUTER_LATENCY.png Graphic file (type png)
-<use lab2-ROUTER_LATENCY.png>
-Package pdftex.def Info: lab2-ROUTER_LATENCY.png  used on input line 29.
-(pdftex.def)             Requested size: 230.18253pt x 172.63771pt.
-<lab2-LINK_WIDTH_BITS.png, id=5, 462.528pt x 346.896pt>
-File: lab2-LINK_WIDTH_BITS.png Graphic file (type png)
-<use lab2-LINK_WIDTH_BITS.png>
-Package pdftex.def Info: lab2-LINK_WIDTH_BITS.png  used on input line 30.
-(pdftex.def)             Requested size: 230.18253pt x 172.63771pt.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lab2-SYNTHETIC_TRAFFIC.png> <./lab2-VCS_PER_VNET.png> <./lab2-ROUTER_LATENCY.png> <./lab2-LINK_WIDTH_BITS.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./lab3-SYNTHETIC_TRAFFIC.png> <./lab3-VC_TYPE.png>]
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 51.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [2] [3] [4] [5] (./lab2.aux)
+) [2] [3] [4] (./lab3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -263,18 +253,18 @@ L3 programming layer <2024-01-22>
 ### semi simple group (level 1) entered at line 4 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 5075 strings out of 476182
- 72087 string characters out of 5795596
- 2331975 words of memory out of 5000000
- 27032 multiletter control sequences out of 15000+600000
- 565508 words of font info for 64 fonts, out of 8000000 for 9000
+ 5043 strings out of 476182
+ 71343 string characters out of 5795596
+ 2329975 words of memory out of 5000000
+ 27002 multiletter control sequences out of 15000+600000
+ 564865 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,6n,65p,433b,2758s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/kratrissa/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0800.600pk> </home/kratrissa/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on lab2.pdf (5 pages, 248730 bytes).
+ 57i,6n,65p,497b,2752s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/kratrissa/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tctt0800.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on lab3.pdf (4 pages, 147079 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

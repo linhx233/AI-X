@@ -158,10 +158,10 @@ Router::getInportDirection(int inport)
     return m_input_unit[inport]->get_direction();
 }
 
-int
-Router::route_compute(RouteInfo route, int inport, PortDirection inport_dirn)
+std::pair<int, int>
+Router::route_compute(RouteInfo route, int inport, int invc, PortDirection inport_dirn)
 {
-    return routingUnit.outportCompute(route, inport, inport_dirn);
+    return routingUnit.outportCompute(route, inport, invc, inport_dirn);
 }
 
 void

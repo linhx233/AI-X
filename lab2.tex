@@ -32,9 +32,22 @@
 \end{figure}
 
 \section*{Task 1\&2}
-By running the shell script in appendix, we generated the four figures above.\begin{itemize}
-    \item \textbf{SYNTHETIC TRAFFIC}: As figure 1 shows, when the injection rate is low, the average packet latency is dominated by the network latency, which is highly correlated to the average hops.
+By running the shell script in appendix, we generated the four figures above. Here we generated the latency-injection rate curve instead of the latency-throughput curve, since we can still clearly observe the congestion point, and we can better analyse the behavior after congestion.
+
+\begin{itemize}
+    \item \textbf{SYNTHETIC TRAFFIC}: As figure 1 shows, when the injection rate is low, the average packet latency is dominated by the network latency, which is highly correlated to the average hops, where
+    $$H_{uniform}\approx 5.23,H_{transpose}\approx 5.27,H_{shuffle}\approx 4.01,H_{tornado}\approx 3.74,H_{neighbor}\approx 1.75$$
+	Whose order is identical as the order of average packet latency at low load. As the injection rate increases, the network becomes congested, and the average packet latency increases dramatically. The structure of transpose traffic makes the traffic concentrate on the diagonal and has the lowest congestion point, while uniform random traffic splits the traffic evenly and has the highest congestion point. After congestion, the average packet latency is dominated by the queuing latency, which is highly correlated to the injection rate. The order of average packet latency after congestion is identical as the order of injection rate at congestion point. 
+    \item \textbf{VCS PER VNET}: As figure 2 shows, when the injection rate is low, the average packet latency is almost identical under different VCs per VNet, since the network latency dominates. As the injection rate increases, the network becomes congested, and the average packet latency increases dramatically. More VCs per VNet can alleviate the congestion and increase the congestion point. After congestion, the average packet latency is dominated by the queuing latency, which is highly correlated to the injection rate. The order of average packet latency after congestion is identical as the order of injection rate at congestion point.
+    \item \textbf{ROUTER LATENCY}: As figure 3 shows, when the injection rate is low, the average packet latency is dominated by the network latency, which is highly correlated to the router latency.
+    \item \textbf{LINK WIDTH BITS}: As figure 4 shows, link width bits decides the number of cycles neccessary to transmit a flit. So the network latency and congestion point is almost linearly correlated to the link width bits. When the link width bits is large enough, a flit only need one hop to transmit, the latency no longer keep decreasing.
 \end{itemize}
+
+\section*{Task 3}
+\begin{enumerate}
+	\item Transmission, propagation, processing, and queuing delay. In NoC we needn't consider the propagation delay since the distance is very short. The processing delay is also very small compared to the transmission and queuing delay. When the network is not congested, the transmission delay dominates the total delay. When the network is congested, the queuing delay dominates the total delay.
+	\item 4 flits and virtual channel flow control.
+\end{enumerate}
 
 
 \section*{Appendix}
